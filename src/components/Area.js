@@ -22,8 +22,8 @@ const Area = () => {
         slidesToShow: 5,
         slidesToScroll: 1,
         autoplay: true,
-        speed: 2000,
-        autoplaySpeed: 2000,
+        speed: 3000,
+        autoplaySpeed: 3000,
         cssEase: "linear"
     };
     return (
@@ -58,14 +58,14 @@ const Area = () => {
                 <h1 className='text-center font-Poppins font-semibold text-5xl text-sky-400 pt-36'>Industries we Service</h1>
                 <h1 className='text-white font-Poppins text-2xl text-center px-24 py-6 mb-10'>Our experts have industry experience and domain expertise in planning, Implementation, Customization, product training, and customer support. Talk to us now to know more or tell us about your requirements and we will be glad to pitch-in.</h1>
             </div>
-            <div className='px-24'>
+            <div className='px-24 pb-14'>
                 <Slider {...settings}>
                     <div>
                         <img src={drop} alt="" />
                         <h2 className=' pt-5 text-slate-300 uppercase text-xl'>oil</h2>
                     </div>
                     <div>
-                        <img src={pharma} alt="" />
+                        <img className='ml-4' src={pharma} alt="" />
                         <h2 className=' pt-5 text-slate-300 uppercase text-xl'>pharma</h2>
                     </div>
                     <div>
