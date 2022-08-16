@@ -15,10 +15,10 @@ const Header = () => {
                 </div>
                 <div class="flex-none">
                     <ul class="menu menu-horizontal  ">
-                        <li><Link to='/' className=' text-xl text-indigo-900'>Home</Link></li>
-                        <li><Link to='/about' className='  text-xl text-indigo-900'>About Us</Link></li>
+                        <li><Link to='/' className=' text-xl text-indigo-900  font-Poppins'>Home</Link></li>
+                        <li><Link to='/about' className='  text-xl text-indigo-900  font-Poppins'>About Us</Link></li>
                         <li tabindex="0">
-                            <a className='  text-xl text-indigo-900'>
+                            <a className='  text-xl text-indigo-900  font-Poppins'>
                                 Services
                                 <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg>
                             </a>
@@ -27,7 +27,7 @@ const Header = () => {
                                 <li><a>Submenu 2</a></li>
                             </ul>
                         </li>
-                        <li><Link to='/contact' className='  text-xl text-indigo-900'>Contact Us</Link></li>
+                        <li><Link to='/contact' className='  text-xl text-indigo-900  font-Poppins'>Contact Us</Link></li>
                         {/* <ul class=" menu-horizontal">
                             <li><NavLink to='/' style={({ isActive }) =>
                                 (isActive ? { color: '#D7F561' } : { color: 'White' })} className='text-white font-bold px-8'>Home</NavLink></li>
