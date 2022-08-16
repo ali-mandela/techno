@@ -6,15 +6,15 @@ import logo from '../assets/logo-1.png'
 
 const Header = () => {
     return (
-        <div className='mx-20 mb-8'>
-            <div class="navbar sticky bg-base-100">
+        <div className=' sticky top-0 w-full h-full'>
+            <div class="navbar sticky top-0 bg-base-100 px-24 pb-10">
                 <div class="flex-1">
                     <a class="btn btn-ghost normal-case text-xl ">
                         <img src={logo} alt="logo" />
                     </a>
                 </div>
                 <div class="flex-none">
-                    <ul class="menu menu-horizontal p-0 ">
+                    <ul class="menu menu-horizontal  ">
                         <li><Link to='/' className=' text-xl text-indigo-900'>Home</Link></li>
                         <li><Link to='/about' className='  text-xl text-indigo-900'>About Us</Link></li>
                         <li tabindex="0">
