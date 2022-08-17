@@ -20,7 +20,7 @@ const Clients = () => {
         cssEase: "linear"
     };
     return (
-        <div className='mx-24 bg-white py-10'>
+        <div className='px-24 bg-white py-10'>
             <h1 className='text-violet-700 font-bold text-4xl  my-8 text-center font-Poppins uppercase'>our clients</h1>
             <Slider {...settings}>
                 <div>
