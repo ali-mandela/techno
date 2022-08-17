@@ -1,6 +1,7 @@
 import React from 'react';
 import Area from './Area';
 import Banner from './Banner';
+import Blog from './Blog';
 import Clients from './Clients';
 import Contact from './Contact';
 import Footer from './Footer';
@@ -20,7 +21,7 @@ const Home = () => {
             <Clients />
             <Map />
             <Contact />
-
+            <Blog />
             <Footer />
         </div>
     );
