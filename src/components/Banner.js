@@ -1,4 +1,6 @@
 import React from 'react';
+import './Banner.css'
+import sap from '../assets/SAP-1-min.png'
 import homeBanner from "../assets/Hom-banner-Image-01-min-scaled.jpg"
 
 const Banner = () => {
@@ -15,8 +17,27 @@ const Banner = () => {
                         know more
                     </button>
                 </div>
+                <div>
 
-                <div>9</div>
+                    <div className='card'>
+                        <div className='face front'>
+                            <img className='img' src={sap} alt="" />
+                        </div>
+                        <div className='face back'>
+                            <h1>SAP</h1>
+                            <p>SAP HANA | SAP FIORI | SAP ERP</p>
+                        </div>
+                    </div>
+                    <div className='card'>
+                        <div className='face front'>
+                            <img className='img' src={sap} alt="" />
+                        </div>
+                        <div className='face back'>
+                            <h1>SAP</h1>
+                            <p>SAP HANA | SAP FIORI | SAP ERP</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     );
