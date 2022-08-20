@@ -1,8 +1,8 @@
 .card {
     position: relative;
     width: 200px;
-    height: 250px;
-    margin: 20px;
+    height: 220px;
+    margin: 10px;
 }
 
 .card .face {
@@ -50,15 +50,6 @@
     box-shadow: 0 5px 10px #000;
 }
 
-.card .back .link {
-    border-top: solid 1px #f3f3f3;
-    height: 50px;
-    line-height: 50px;
-}
-
-.card .back .link a {
-    color: #f3f3f3;
-}
 
 .card .back h3 {
     font-size: 30px;
