@@ -1,4 +1,5 @@
 import React from 'react';
+import './Area.css'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import homeBanner from '../assets/Hom-banner-Image-01-min-scaled.jpg'
@@ -33,22 +34,22 @@ const Area = () => {
                 <h1 className='text-white font-Poppins text-2xl text-center px-24 py-6 mb-10'>Our experts in technical architecture will provide you solutions to streamline your business. Reach us for our vast resource of programmers, analysts, QA, Marketing.</h1>
             </div>
             <div class="grid grid-cols-4 gap-4 mx-24">
-                <div className='bg-purple-400 rounded-lg p-6'>
+                <div className='bg-purple-400 rounded-lg p-6  f-1'>
                     <img className='ml-16' src={user} alt="" />
                     <h1 className='text-sky-500 font-Poppins font-bold text-center text-5xl my-8'>500+</h1>
                     <h1 className='font-Poppins font-semibold text-white text-center text-2xl mb-8'>Clients</h1>
                 </div>
-                <div className='bg-gray-600 rounded-lg p-6 mt-12 '>
+                <div className='bg-gray-600 rounded-lg p-6 f-2 '>
                     <img className='ml-16' src={globe} alt="" />
                     <h1 className='text-sky-500 font-Poppins font-bold text-center text-5xl my-8'>20+</h1>
                     <h1 className='font-Poppins font-semibold text-white text-center text-2xl mb-8 '>Global Presence</h1>
                 </div>
-                <div className='bg-violet-500 rounded-lg p-6'>
+                <div className='bg-violet-500 rounded-lg p-6 f-1'>
                     <img className='ml-16' src={like} alt="" />
                     <h1 className='text-sky-500 font-Poppins font-bold text-center text-5xl my-8'>100%</h1>
                     <h1 className='font-Poppins font-semibold text-white text-center text-2xl mb-8'>Customer Satisfaction</h1>
                 </div>
-                <div className='bg-indigo-500 rounded-lg p-6 mt-12'>
+                <div className='bg-indigo-500 rounded-lg p-6 f-2'>
                     <img className='ml-16' src={ind} alt="" />
                     <h1 className='text-sky-500 font-Poppins font-bold text-center text-5xl my-8'>3000+</h1>
                     <h1 className='font-Poppins font-semibold text-white text-center text-2xl mb-8'>Industry Spefic Solutions</h1>

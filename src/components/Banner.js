@@ -20,7 +20,7 @@ const Banner = () => {
                         know more
                     </button>
                 </div>
-                <div className='grid grid-cols-2 '>
+                <div className='grid grid-cols-2 p-24'>
 
                     <div className='card'>
                         <div className='face front'>
