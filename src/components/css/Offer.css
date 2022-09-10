@@ -26,6 +26,11 @@
     padding: 20px;
 }
 
+.offersubdiv:hover{
+    transform: all 2s ease;
+    box-shadow: 0 3px 3px gray;
+}
+
 @media(max-width:1000px){
     .offersubdiv{
         width: 800px; 
