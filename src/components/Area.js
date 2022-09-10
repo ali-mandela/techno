@@ -25,7 +25,15 @@ const Area = () => {
         autoplay: true,
         speed: 3000,
         autoplaySpeed: 3000,
-        cssEase: "linear"
+        cssEase: "linear",
+        responsive: [{
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 2,
+              initialSlide: 2
+            }
+          }]
     };
     return (
         <div className=' bg-cover rounded-bl-3xl rounded-br-3xl bg-violet-900' >
@@ -33,7 +41,7 @@ const Area = () => {
                 <h1 className='text-center font-Poppins font-semibold text-5xl text-sky-400 pt-36'>Our Focus Areas</h1>
                 <h1 className='text-white font-Poppins text-2xl text-center px-24 py-6 mb-10'>Our experts in technical architecture will provide you solutions to streamline your business. Reach us for our vast resource of programmers, analysts, QA, Marketing.</h1>
             </div>
-            <div class="grid grid-cols-4 gap-4 mx-24">
+            <div class="areadiv">
                 <div className='bg-purple-400 rounded-lg p-6  f-1'>
                     <img className='ml-16' src={user} alt="" />
                     <h1 className='text-sky-500 font-Poppins font-bold text-center text-5xl my-8'>500+</h1>

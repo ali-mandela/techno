@@ -1,13 +1,58 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import './Header.css'
 
 import logo from '../assets/logo-1.png'
 
 const Header = () => {
-    return (
-        <div className=' sticky top-0 w-full h-full'>
-            <div class="navbar sticky top-0 bg-base-100 px-24 pb-10">
+    const [arrow,setArrow] = useState(true);
+    const [menu, setMenu] = useState(true)
+
+    function handelaChange(){
+        setArrow(!arrow)
+
+    }
+    function handleclick(){
+        setMenu(!menu)
+    }
+
+    const customStyle={
+        left:"10px",
+
+    }
+    return (<>
+
+        <div className='header'>
+            <div className='navbar'>
+                <div className="logo">
+                    <img src={logo} alt="logo" /> 
+                </div>
+                <div className='navlinks'>
+                    <ul className="links" style={menu===false ? customStyle : null}>
+                    <li><Link to='/' className='b'>Home</Link></li>
+                    <li><Link to='/about' className=' b'>About Us</Link></li>
+                    <li>
+                            <a href='#' className='ullink' onMouseOver={handelaChange} onMouseOut={handelaChange}> 
+                                Services<i  className={arrow === false? "fa-solid fa-chevron-up" : "fa-1x fa-solid fa-angle-down" } ></i>
+                            </a>  
+                            <ul className="submenu" onMouseOver={handelaChange} onMouseOut={handelaChange}>
+                                <li><a>Application Management</a></li>
+                                <li><a>Cyber Security</a></li>
+                                <li><a>ZOHO Products</a></li>
+                                <li><a>Cloud Integrations</a></li>
+                                <li><a>Data Analytics</a></li>
+                                <li><a>ERP Implementation</a></li>
+                                <li><a>Networking & infra</a></li> 
+                            </ul>
+                        </li>
+                        <li><Link to='/contact' className='b'>Contact Us</Link></li>
+                    </ul>
+                </div>
+                <i onClick={handleclick} className={menu==true ? " sidemenu fa-3x fa-solid fa-bars": "fa-3x fa-solid fa-xmark" } />
+            </div>
+        </div>
+        {/* <div className=' n'>
+            <div className="navbar">
                 <div class="flex-1">
                     <a class="btn btn-ghost normal-case text-xl ">
                         <img src={logo} alt="logo" />
@@ -36,12 +81,12 @@ const Header = () => {
                             <li><NavLink to='/login' style={({ isActive }) =>
                                 (isActive ? { color: '#D7F561' } : { color: 'White' })} className='text-white font-bold  px-8'>Login</NavLink></li>
 
-                        </ul> */}
+                        </ul> 
                     </ul>
                 </div>
             </div>
-        </div>
-    );
+        </div> */}
+   </> );
 };
 
 export default Header;

@@ -1,0 +1,25 @@
+.contactdiv{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 90px;
+    position: relative;
+}
+.contactdivdiv button{
+    height: 70px;
+    width: 200px;
+    position: absolute;
+    right: 300px;
+    top: 120px;
+}
+
+@media (max-width:1000px) {
+    .contactdiv{
+        flex-direction: column;
+        padding: 50px 10px;
+    }
+    .contactdivdiv button{
+        position: static;
+        margin-top: 20px;
+    }
+    
+}

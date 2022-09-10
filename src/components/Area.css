@@ -1,7 +1,45 @@
 .f-2 {
-    margin-top: 18px;
+    margin-top: 20px;
 }
 
 .f-2 {
-    margin-bottom: -18px;
+    margin-bottom: -20px;
+}
+
+.areadiv{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px 30px;
+}
+.areadiv div{  
+    width: 250px;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width:800px) and (min-width:500px) {
+    .areadiv div{
+        width: 300px;
+        margin-top: 10px;
+        justify-content: center;
+    }
+    
+}
+@media (max-width:500px){
+    .f-2 {
+        margin-top: 0;
+    }
+    
+    .f-2 {
+        margin-bottom:0;
+    }
+    
+    .areadiv div{
+        width: 100%;
+        justify-content: center;
+        margin-top: 10px;
+        font-size: .6rem;
+    }
+    
 }

@@ -1,10 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+.mapdiv{
+    text-align: center; 
+    padding: 30px 20px;
+    width: 100%;  
+    object-fit: contain; 
+    
+    
+}
+.mapdiv h1{
+    font-size: 4rem;
+    color: #482987;
+    font-weight: bolder;
+}
+.mapimg{
+    background-repeat: no-repeat; 
+    background-size: contain; 
+    background-position: center; 
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+    position: relative;
+}
+
 .map {
     display: block;
-    width: 50px;
+    width: 40px;
     height: 50px;
     border-radius: 50%;
     background-color: var(--css);
-
     animation-name: bounce;
     animation-duration: 0.575s;
     animation-direction: alternate;
@@ -12,12 +42,58 @@
     animation-iteration-count: infinite;
 }
 
+.ml-32{
+    position: absolute;
+    top: 40%;
+    right: 45%;
+}
+.mx-31{
+    position: absolute;
+    top: 30%;
+    right: 45%;
+}
+.mx-3{
+    position: absolute;
+    top: 20%;
+    right: 40%;
+}
 @keyframes bounce {
     from {
         transform: translate3d(0, 0, 0);
     }
 
     to {
-        transform: translate3d(0, 160px, 0);
+        transform: translate3d(0, 10px, 0);
     }
 }
+
+@media(max-width:475px)
+{
+    .mapdiv h1{
+        font-size: 1rem;
+    }
+    .mapimg{
+        height: 15vh;
+    }
+    .map{
+        width: 10px;
+        height: 20px;
+    }
+
+}
+@media(max-width:700px) and (min-width:475px)
+{
+    .mapdiv h1{
+        font-size: 2rem;
+    }
+    .mapimg{
+        height: 20vh;
+    }
+    .map{
+        width: 40px;
+        height: 50px;
+    }
+    
+}
+
+

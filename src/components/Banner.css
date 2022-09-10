@@ -68,3 +68,44 @@
 .card:hover .back {
     transform: perspective(600px) rotateY(360deg);
 }
+.roundedbanner{
+    padding-top: 90px;
+    padding-bottom:0;
+    border-bottom-right-radius: 300px;
+    border-bottom-left-radius: 300px;
+}
+
+.bannermaindiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 10px;
+}
+.bannerdivleft{
+    padding: 40px;
+    width: 50%;
+}
+.bannerdivright{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    width: 50%;
+
+}
+
+
+@media(max-width:800px) {
+    .bannermaindiv{
+        flex-direction: column;
+        height: auto;
+    }
+    .bannerdivleft{ 
+        width: 100%;
+    }
+    .bannerdivright{ 
+        width: 100%;
+    
+    }
+    
+}

@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+.header{
+    position: fixed;
+    width: 100%;
+    padding: 10px 100px;
+    background-color: white;
+    z-index: 100;
+
+}
+.navbar{ 
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    position: relative;
+    z-index: 100;
+
+}
+.navlinks .links{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    
+}
+.navlinks .ullink{
+    padding: 0 0 70px 0;
+}
+.navlinks .links :hover .submenu{
+display: block;
+}
+.submenu{
+    position:absolute;
+    display: block;
+    background-color: white;
+    padding: 20px 10px;
+    border-radius: 20px;
+    box-shadow: 0 1px 2px black;
+    top: 90px;
+    right: 5px;
+    display: none;
+    transition: all 2s;
+}
+.submenu li{
+    border-bottom: 1px solid black;
+    margin: 10px;
+    color: #482987;
+}
+.sidemenu{
+    display: none;
+}
+
+@media(max-width:750px){
+    .sidemenu{
+        display: block;
+        position: absolute;
+right: 10px;    }
+.header{
+    padding: 10px 10px;
+}
+.submenu{
+    display: block;
+    position: static; 
+    background-color: white;
+    padding: 20px 30px; 
+    box-shadow: none;
+    border-radius: 0;
+    transition: all 2s;
+}
+     
+.navlinks .links{
+    height: 380px;
+    overflow: scroll;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    position: absolute;
+    top: 80px;
+    border-top: 4px orangered solid;
+    left: -120%;
+    background-color: white;
+    box-shadow: 0 1px 2px black;
+    transition: 1s all ease-in-out;
+    
+
+    
+}
+.ullink i{
+    display: none;
+}
+.navlinks .links li{ 
+    border-bottom: 1px solid #000;
+}
+    
+}

@@ -17,10 +17,18 @@ const Clients = () => {
         autoplay: true,
         speed: 3000,
         autoplaySpeed: 3000,
-        cssEase: "linear"
+        cssEase: "linear",
+        responsive: [{
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 2,
+              initialSlide: 2
+            }
+          }]
     };
     return (
-        <div className='px-24 bg-white py-10'>
+        <div className='px-24 bg-white py-10 clientsdiv'>
             <h1 className='text-violet-700 font-bold text-4xl  my-8 text-center font-Poppins uppercase'>our clients</h1>
             <Slider {...settings}>
                 <div>
