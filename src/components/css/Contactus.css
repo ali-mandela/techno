@@ -1,0 +1,51 @@
+ .contactHeader{
+    padding: 130px 0 100px 0  ;
+    text-align: center;
+    background-size: cover;
+    font-size: 3rem;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+}
+ .contactHeader h1{
+    display: inline-block;
+    border-bottom: 4px solid #fff;
+    margin: 20px 0 0 0;
+    font-weight: bolder;
+    color: white;
+
+ }  
+
+ /* contactheaderbody */
+ .contactheaderbody{
+    padding:  110px 110px 50px 110px;
+    text-align: center;
+ }
+ .contactheaderbody h1{
+    font-size: 2rem;
+    font-weight: bolder;
+ }
+ .contactheaderbody p{
+    margin: 10px 0;
+    font-size: 1rem;
+    font-weight: 100;
+ }
+ /* contact us section 2 */
+ .cssection2{
+    background-image: linear-gradient(#9b51e0, #482987); 
+    display: flex;
+    padding: 70px 20px;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+ }
+ .cssection2 h1{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: white;
+ }
+ .cssection2 div{
+    margin: 20px;
+ }
+ .cssection2 p{
+    font-size: 1rem; 
+    color: white;
+ }
