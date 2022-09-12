@@ -139,6 +139,7 @@
  .cs3Topdiv{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap; 
     padding: 40px 65px;
 
  }
@@ -220,7 +221,13 @@
     width: 100%;
     margin-top: 10px;
  }
+/*  */
+.cs3Topdiv{ 
+    padding: 40px 10px;
 
- 
+ }
+ .cs3Topdiv div{ 
+    margin-top: 30px; 
+ }
     
  }
