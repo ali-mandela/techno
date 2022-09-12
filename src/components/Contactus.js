@@ -1,10 +1,24 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Header from './Header'
+import Footer from './Footer'
 import './css/Contactus.css'
 import banner from '../assets/contactusbanner.jpg'
+import ser1 from '../assets/ser1.png';
+import ser2 from '../assets/ser2.png';
+import ser3 from '../assets/ser3.png';
 
 
 function Contactus() {
+
+    const [open , setOpen] = useState(false)
+    const [open1 , setOpen1] = useState(false)
+    const [open2 , setOpen2] = useState(false) 
+
+    function handelchange(){
+        setOpen(!open);
+        setOpen1(!open1);
+        setOpen2(!open2);
+    }
   return (<>
     <Header/>
     <section className='contactussection'>
@@ -36,6 +50,83 @@ function Contactus() {
             <p>Business Center - RAKEZ, UAE</p>
         </div>
     </section>
+
+    <section className='cssection3'>
+        <h1 className='cs3h1'>Our Business Presence</h1>
+        <div className='cs3Topdiv'>
+            <div className={open===true ? "aa" :"cc"}>
+                <h1 onClick={handelchange}>INDIA </h1>
+                <i className={open===true ? " fa-1.5x fa-solid fa-circle-plus" :  "fa-1.5x fa-solid fa-circle-minus" }   ></i>
+                <div className='cs3Topdivmain' >
+                    <p>ADDRESS</p>
+                    <p>2-62/2/A, Megha Hills,</p>
+                    <p>Canara Bank Building, Madhapur,</p>
+                    <p>Hyderabad -81, Telangana</p><br/>
+                    <p>Tel. +91-40 48531954</p>
+                    <p>Mob +91 75690 39539</p><br/>
+                    <p>Email: info@technoisolutions.com</p>
+                </div>
+                
+            </div>
+            <div className={open===true ? "bb" :"cc"}>
+                <h1 onClick={handelchange}>UAE </h1>
+                <i className={open===true ? " fa-1.5x fa-solid fa-circle-plus" :  "fa-1.5x fa-solid fa-circle-minus" }   ></i>
+                <div className='cs3Topdivmain'>
+                    <p>ADDRESS</p>
+                    <p>Business Center – RAKEZ,</p>
+                    <p>RAS AI Khaimah</p>
+                    <p>United Arab Emirates</p><br/>
+                    <p>Tel. +971562313879</p> <br/>
+                    <p>Email: info@technoisolutions.com</p>
+                </div>
+            </div>
+            <div className={open===true ? "dd" :"cc"}>
+                <h1 onClick={handelchange}>OMAN </h1>
+                <i className={open===true ? " fa-1.5x fa-solid fa-circle-plus" :  "fa-1.5x fa-solid fa-circle-minus" }   ></i>
+                <div className='cs3Topdivmain'>
+                    <p>ADDRESS</p>
+                    <p> Office No. 803, Ghala</p>
+                    <p>RAS AI Khaimah</p>
+                    <p> Sultanate of Oman,</p>
+                    <p> P.O. Box 1724, P.C. 133</p><br/>
+                    <p>Tel. +971562313879</p> <br/>
+                    <p>Email: info@technoisolutions.com</p>
+                </div>
+                
+            </div>
+            
+        </div>
+
+        <div className='cs3div'>
+            <div className='cs3left'>
+                <h1>Write to us</h1>
+                <form>
+                    <input type={"text"} placeholder="Full Name *"/>
+                    <input type={"text"} placeholder="Email*"/>
+                    <input type={"tel"} placeholder="Phone Number"/><br/>
+                    <textarea placeholder="Message" rows={4}
+          cols={34} />
+                    <button type={"submit"}> SEND </button>
+                </form>
+            </div>
+            <div className='cs3right'>
+                <h1>Stay up to date with the latest</h1>
+                <div>
+                <h2>Follow US</h2>
+                <i class=" fa-4x fa-brands fa-facebook"></i>
+                <i class=" fa-4x fa-brands fa-linkedin"></i>
+                </div>
+                
+                <div>
+                    <img src={ser1} alt="service 1"/>
+                    <img src={ser2} alt="service 1"/>
+                    <img src={ser3} alt="service 1"/>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <Footer/>
   </>
   );
 }
