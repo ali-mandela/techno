@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './Header.css'
 
 import logo from '../assets/logo-1.png'
@@ -36,19 +36,19 @@ const Header = () => {
                                 Services<i  className={arrow === false? "fa-solid fa-chevron-up" : "fa-1x fa-solid fa-angle-down" } ></i>
                             </a>  
                             <ul className="submenu" onMouseOver={handelaChange} onMouseOut={handelaChange}>
-                                <li><a>Application Management</a></li>
-                                <li><a>Cyber Security</a></li>
-                                <li><a>ZOHO Products</a></li>
-                                <li><a>Cloud Integrations</a></li>
-                                <li><a>Data Analytics</a></li>
-                                <li><a>ERP Implementation</a></li>
-                                <li><a>Networking & infra</a></li> 
+                                <li><Link to="/">Application Management</Link></li>
+                                <li><Link to="/">Cyber Security</Link></li>
+                                <li><Link to="/zoho">ZOHO Products</Link></li>
+                                <li><Link to="/">Cloud Integrations</Link></li>
+                                <li><Link to="/">Data Analytics</Link></li>
+                                <li><Link to="/ERP">ERP Implementation</Link></li>
+                                <li><Link to="/Networking">Networking & infra</Link></li> 
                             </ul>
                         </li>
                         <li><Link to='/contact' className='b'>Contact Us</Link></li>
                     </ul>
                 </div>
-                <i onClick={handleclick} className={menu==true ? " sidemenu fa-3x fa-solid fa-bars": "fa-3x fa-solid fa-xmark" } />
+                <i onClick={handleclick} className={menu===true ? " sidemenu fa-3x fa-solid fa-bars": "fa-3x fa-solid fa-xmark" } />
             </div>
         </div>
         {/* <div className=' n'>

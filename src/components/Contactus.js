@@ -6,6 +6,7 @@ import banner from '../assets/contactusbanner.jpg'
 import ser1 from '../assets/ser1.png';
 import ser2 from '../assets/ser2.png';
 import ser3 from '../assets/ser3.png';
+import { faL, faSlash } from '@fortawesome/free-solid-svg-icons'
 
 
 function Contactus() {
@@ -16,9 +17,32 @@ function Contactus() {
 
     function handelchange(){
         setOpen(!open);
-        setOpen1(!open1);
-        setOpen2(!open2);
+        setOpen2(false);
+        setOpen1(false);
     }
+    function handelchange1(){
+        setOpen( false);
+        setOpen2(false);
+        setOpen1(!open1);
+    }
+    function handelchange2(){
+        setOpen(false);
+        setOpen2(!open2);
+        setOpen1(false);
+    }
+//    { if(open===true)
+//     {
+//         open1 = !open;
+//         open2 = !open;
+//     }else if(open1===true){
+//         open = !open1;
+//         open2 = !open1;
+//     }
+//     else if(open2===true){
+//         open = !open2;
+//         open1 = !open2;
+//     }
+// }
   return (<>
     <Header/>
     <section className='contactussection'>
@@ -68,9 +92,9 @@ function Contactus() {
                 </div>
                 
             </div>
-            <div className={open===true ? "bb" :"cc"}>
-                <h1 onClick={handelchange}>UAE </h1>
-                <i className={open===true ? " fa-1.5x fa-solid fa-circle-plus" :  "fa-1.5x fa-solid fa-circle-minus" }   ></i>
+            <div className={open1===true ? "bb" :"cc"}>
+                <h1 onClick={handelchange1}>UAE </h1>
+                <i className={open1===true ? " fa-1.5x fa-solid fa-circle-plus" :  "fa-1.5x fa-solid fa-circle-minus" }   ></i>
                 <div className='cs3Topdivmain'>
                     <p>ADDRESS</p>
                     <p>Business Center – RAKEZ,</p>
@@ -80,9 +104,9 @@ function Contactus() {
                     <p>Email: info@technoisolutions.com</p>
                 </div>
             </div>
-            <div className={open===true ? "dd" :"cc"}>
-                <h1 onClick={handelchange}>OMAN </h1>
-                <i className={open===true ? " fa-1.5x fa-solid fa-circle-plus" :  "fa-1.5x fa-solid fa-circle-minus" }   ></i>
+            <div className={open2===true ? "dd" :"cc"}>
+                <h1 onClick={handelchange2}>OMAN </h1>
+                <i className={open2===true ? " fa-1.5x fa-solid fa-circle-plus" :  "fa-1.5x fa-solid fa-circle-minus" }   ></i>
                 <div className='cs3Topdivmain'>
                     <p>ADDRESS</p>
                     <p> Office No. 803, Ghala</p>
