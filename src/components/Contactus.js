@@ -129,7 +129,7 @@ function Contactus() {
                     <input type={"text"} placeholder="Email*"/>
                     <input type={"tel"} placeholder="Phone Number"/><br/>
                     <textarea placeholder="Message" rows={4}
-          cols={30} />
+          cols={25} />
                     <button type={"submit"}> SEND </button>
                 </form>
             </div>
