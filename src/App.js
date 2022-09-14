@@ -7,6 +7,10 @@ import Zoho from './components/zoho';
 // import Header from './components/Header';
 import Home from './components/Home';
 import Networking from './components/Networking';
+import ApplicationManagement from './components/ApplicationManagement';
+import Cybersecurity from './components/Cybersecurity';
+import Dataanalytics from './components/Dataanalytics';
+import CI from './components/CI';
 
 function App() {
   return (
@@ -20,6 +24,10 @@ function App() {
         <Route path="/Networking"  element={<Networking/>}/>
         <Route path='/ERP' element={<ERP/>}/>
         <Route path='/zoho' element={<Zoho/>}  />
+        <Route path='/Application' element={<ApplicationManagement/>}/>
+        <Route path='/Cyber' element={ <Cybersecurity/>} />
+        <Route path='/DA' element={ <Dataanalytics/>} />
+        <Route path='/CloudIntergration' element={<CI/>}/>
       </Routes>
 
     </div>

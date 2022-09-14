@@ -36,11 +36,11 @@ const Header = () => {
                                 Services<i  className={arrow === false? "fa-solid fa-chevron-up" : "fa-1x fa-solid fa-angle-down" } ></i>
                             </a>  
                             <ul className="submenu" onMouseOver={handelaChange} onMouseOut={handelaChange}>
-                                <li><Link to="/">Application Management</Link></li>
-                                <li><Link to="/">Cyber Security</Link></li>
+                                <li><Link to="/Application">Application Management</Link></li>
+                                <li><Link to="/Cyber">Cyber Security</Link></li>
                                 <li><Link to="/zoho">ZOHO Products</Link></li>
-                                <li><Link to="/">Cloud Integrations</Link></li>
-                                <li><Link to="/">Data Analytics</Link></li>
+                                <li><Link to="/CloudIntergration">Cloud Integrations</Link></li>
+                                <li><Link to="/DA">Data Analytics</Link></li>
                                 <li><Link to="/ERP">ERP Implementation</Link></li>
                                 <li><Link to="/Networking">Networking & infra</Link></li> 
                             </ul>

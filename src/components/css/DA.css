@@ -1,0 +1,71 @@
+.DAmain h2{
+    font-size: 2rem;
+    font-weight: 900;
+}
+.DAmain h1{
+    font-size: 3rem;
+    font-weight: bolder;
+    display: inline-block;
+    border-bottom: 8px solid #fff;
+
+}
+
+.DAmain{
+   background-color: white;
+}
+.DAsec{
+    background-color: #fff;
+}
+.DAmain .DAtop{
+    color: #fff;
+    text-align: center;
+    padding: 140px 70px;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+}
+.DAbody{
+    padding: 90px 70px 20px 70px;
+}
+.DAbody p{
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+.DAbody .image1{
+    width: 480px; 
+    float: left; 
+    margin-right: 20px;
+}
+.DAbody div{
+    margin-top: 30px;
+}
+.DAbody .image2{
+    /* width: 480px;  */
+    float: right; 
+    margin-left: 20px;
+}
+.DAsec{
+    padding: 0 70px;
+}
+.DAvideo{
+    padding: 0 70px;
+}
+.DAsec .DAmainfooter{ 
+    text-align: center;
+    padding-top: 40px;
+}
+.DAsec .DAmainfooter h1{
+    font-size: 2rem;
+    color: purple;
+    font-weight: bolder;
+}
+.DAsec .DAmainfooter p{
+    font-size: 1rem; 
+    margin-top: 20px;
+    font-weight: normal;
+}
+.DAsec p{
+    padding-top: 20px;
+}
+.DAsec .delete{
+    visibility: hidden;
+}

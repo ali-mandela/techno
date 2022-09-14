@@ -30,8 +30,7 @@ function Networking() {
         </p>
     </div>
     <div>
-    <div className='offermaindiv'>
-            <h1 className='text-violet-700 font-bold text-6xl  my-8 text-center font-Poppins'>What we offer?</h1>
+    <div className='offermaindiv'> 
             <div class="offerdiv">
                 <div class="bg-white rounded-lg offersubdiv">
                     <div className='offersundivone'>

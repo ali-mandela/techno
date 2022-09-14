@@ -9,10 +9,10 @@ import clud from '../assets/cloud.png'
 import net from '../assets/network.png'
 import './css/Offer.css'
 
-const Offer = () => {
+const Offer = (e) => {
     return (
         <div className='offermaindiv'>
-            <h1 className='text-violet-700 font-bold text-6xl  my-8 text-center font-Poppins'>What we offer?</h1>
+            <h1 className='text-violet-700 font-bold text-6xl  my-8 text-center font-Poppins'>{e.name}</h1>
             <div class="offerdiv">
                 <div class="bg-white rounded-lg offersubdiv">
                     <div className='offersundivone'>
@@ -70,19 +70,8 @@ const Offer = () => {
                         <a className='text-orange-500 font-Poppins uppercase text-md font-semibold' href="">Know more</a>
                     </div>
                 </div>
-                <div class=" bg-white rounded-lg offersubdiv">
-                    <div className='offersundivone'>
-
-                        <img src={data} alt="" />
-                    </div>
-                    <div className='offersubdivtwo'>
-                        <h1 className='text-slate-700 font-Poppins font-semibold text-2xl'>
-                            Data Analytics</h1>
-                        <h1 className='text-slate-700 font-Poppins my-3'>Our dedicated experts are certified in handling Network infrastructure remotely …</h1>
-                        <a className='text-orange-500  font-Poppins uppercase text-md font-semibold' href="">Know more</a>
-                    </div>
-                </div>
-                <div class=" bg-white rounded-lg offersubdiv">
+               
+                <div class=" bg-white rounded-lg offersubdiv deleteCI">
                     <div className='offersundivone'>
 
                         <img src={clud} alt="" />
@@ -103,6 +92,18 @@ const Offer = () => {
                         <h1 className='text-slate-700  font-Poppins font-semibold text-2xl'>
                             Networking & infra</h1>
                         <h1 className='text-slate-700  font-Poppins my-3'>Our dedicated experts are certified in handling Network infrastructure remotely …</h1>
+                        <a className='text-orange-500  font-Poppins uppercase text-md font-semibold' href="">Know more</a>
+                    </div>
+                </div>
+                <div class=" bg-white rounded-lg offersubdiv  delete">
+                    <div className='offersundivone'>
+
+                        <img src={data} alt="" />
+                    </div>
+                    <div className='offersubdivtwo'>
+                        <h1 className='text-slate-700 font-Poppins font-semibold text-2xl'>
+                            Data Analytics</h1>
+                        <h1 className='text-slate-700 font-Poppins my-3'>Our dedicated experts are certified in handling Network infrastructure remotely …</h1>
                         <a className='text-orange-500  font-Poppins uppercase text-md font-semibold' href="">Know more</a>
                     </div>
                 </div>

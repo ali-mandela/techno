@@ -12,6 +12,7 @@
     padding: 10px 100px;
     background-color: white;
     z-index: 100;
+    box-shadow: 1px 2px 8px gray;
 
 }
 .navbar{ 
