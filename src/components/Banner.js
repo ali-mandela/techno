@@ -11,7 +11,7 @@ const Banner = () => {
         <div className='w-full bg-cover roundedbanner' style={{ backgroundImage: `url(${homeBanner})` }}>
             <div class="bannermaindiv ">
                 <div className='bannerdivleft'>
-                    <h1 className='text-white font-bold text-4xl font-Poppins'>Leader in enterprise IT solution</h1>
+                    <h1 className='text-white title font-bold text-4xl font-Poppins'>Leader in enterprise IT solution</h1>
 
                     <h1 className='text-white  text-2xl py-10  font-Poppins'>Experts that enable customer success with the implementation of right set of ZOHO tools</h1>
 

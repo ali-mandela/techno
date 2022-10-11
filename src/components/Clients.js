@@ -8,6 +8,8 @@ import co2 from '../assets/ourcl2.png'
 import co3 from '../assets/ourcl3.png'
 import co4 from '../assets/ourcl4.png'
 
+import './css/Clients.css'
+
 const Clients = (props) => {
     const settings = {
         // dots: true,
@@ -29,7 +31,7 @@ const Clients = (props) => {
     };
     return (
         <div className='px-24 bg-white py-10 clientsdiv'>
-            <h1 className='text-violet-700 font-bold text-6xl  my-14 text-center font-Poppins uppercase'>{props.name}</h1>
+            <h1 className='text-violet-700 font-bold text-6xl clientTitle my-14 text-center font-Poppins uppercase'>{props.name}</h1>
             <Slider {...settings}>
                 <div>
                     <img src={co1} alt="" />

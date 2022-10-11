@@ -1,0 +1,10 @@
+/* .clientTitle{
+
+} */
+
+
+@media (max-width:800px) {
+    .clientTitle{
+        font-size: 1vh;
+    }
+}

@@ -5,8 +5,7 @@ import './css/Contactus.css'
 import banner from '../assets/contactusbanner.jpg'
 import ser1 from '../assets/ser1.png';
 import ser2 from '../assets/ser2.png';
-import ser3 from '../assets/ser3.png';
-import { faL, faSlash } from '@fortawesome/free-solid-svg-icons'
+import ser3 from '../assets/ser3.png'; 
 
 
 function Contactus() {

@@ -24,7 +24,9 @@
         margin-top: 10px;
         justify-content: center;
     }
-    
+    .areaText{
+        padding: 10px;
+    }
 }
 @media (max-width:500px){
     .f-2 {
@@ -40,6 +42,9 @@
         justify-content: center;
         margin-top: 10px;
         font-size: .6rem;
+    }
+    .areaText{
+        padding:10px  2px;
     }
     
 }
