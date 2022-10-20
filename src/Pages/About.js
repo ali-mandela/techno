@@ -82,7 +82,7 @@ const About = () => {
         </div>
         </div>
     </div>
-    <Offer/>
+    <Offer di={0} b="white" title="What we Offer ?" para=""/>
     <Footer/>
  
 

@@ -10,7 +10,8 @@
 .testimonialouter {
     display: flex;
     justify-content: center;
-    background: #F7F7FB;
+    background: #F1F1F1;
+
     width: 100%;
     padding: 120px 70px 110px 70px; 
 

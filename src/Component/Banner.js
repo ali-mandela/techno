@@ -1,5 +1,5 @@
 import React from 'react';
-import './Banner.css'
+import '../css/Banner.css'
 import sap from '../assets/SAP-1-min.png'
 import micro from '../assets/microsoft.png'
 import sf from '../assets/salesforce.png'
@@ -9,18 +9,20 @@ import homeBanner from "../assets/Hom-banner-Image-01-min-scaled.jpg"
 
 const Banner = () => {
     return (
-        <div className=' outerBanner' >
-        <div className='innerBanner' style={{ backgroundImage: `url(${homeBanner})` }}>
+        <div className=' outerBanner' style={{ backgroundImage: `url(${homeBanner})` }} >
+        <div className='innerBanner' >
             <div class="  mainBannerDiv">
                 <div className=' mainBannerDivLeft'>
                     <h1 className=' '>Leader in enterprise IT solution</h1>
 
                     <h2 className=' '>Experts that enable customer success with the implementation of right set of ZOHO tools</h2>
-
-                    <a
+                <p>
+                <a
                         class=" ">
                         know more
                     </a>
+                </p>
+                    
                 </div>
                 <div className=' mainBannerDivRigth'>
 

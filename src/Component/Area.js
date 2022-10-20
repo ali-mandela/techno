@@ -1,8 +1,7 @@
 import React from 'react';
 import '../css/Area.css'
 import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import homeBanner from '../assets/Hom-banner-Image-01-min-scaled.jpg'
+import "slick-carousel/slick/slick-theme.css"; 
 import user from '../assets/clients.png'
 import globe from '../assets/globe.png'
 import like from '../assets/like.png'

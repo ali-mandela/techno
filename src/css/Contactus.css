@@ -30,7 +30,65 @@
     color: #474747;    margin: 0 30px 20px 30px;
 
 }
-/* contact us section 2
+/*  */
+/* 
+.cssection2{
+    background: linear-gradient(95.69deg, #8354E2 3.16%, #371087 103.9%);
+    padding: 60px 70px;
+}
+.cssection2 section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.cssection2 section h1{
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 700;
+    color: white;
+}
+.cssection2 section h2{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+    color: white;
+}
+.cssection2 section p{
+    color: #fff;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.05em;
+    font-weight: 400;
+}
+.cs3Topdiv{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 40px;
+    gap: 20px;
+}
+.cs3Topdiv div{
+    width: 30%;
+    height: 60px;
+}
+.cs3Topdiv div h1{
+    width: 100%;
+    position: relative;
+    text-align: left;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+ /* contact us section 2 */
 .contactussection2 {
     background-image: linear-gradient(#9b51e0, #482987);
     display: flex; 
@@ -57,29 +115,18 @@
 .cssection2 p {
     font-size: 1rem;
     color: white;
-} */
+} 
 
 /* conact us section 3 */
-.contactussection3 {
-    padding: 50px 0px;
-}
-.cs3h1 {
-    text-align: center;
-    font-size: 3rem;
-    font-weight: 700;
-    margin: 30px 0;
-} 
+ 
+ 
 .cs3Topdiv {
-   display: flex;
-   justify-content: space-between;
+   display: flex; 
    flex-wrap: wrap;
-   gap: 30px;
-   padding:0;
+   gap: 30px; 
 
 }
-.cs3Topdiv h1{
-   font-size: 34px;
-}
+
 
 .cs3Topdiv div{
    background-color: rgb(218, 212, 212);
@@ -97,8 +144,8 @@
 }
 .cs3Topdiv i {
    position: absolute;
-   top: 15px;
-   right: 25px;
+   top: 0;
+   left: 0;
    color: orange;
 }
 /* address */
@@ -114,28 +161,28 @@
 .bb {
    height: auto;
 }
-.cs3Topdiv h1 {
-   font-size: 2rem;
+/* .cs3Topdiv h1 { */
+   /* font-size: 2rem;
    font-weight: bolder;
 }
 
 .cs3div {
     display: flex; 
-    gap: 50px;
-    margin: 50px 0;
+    gap: 50px; */
+    /* margin: 50px 0;
 
 }
 .cs3left {
     padding:0;
     flex: 1;
 }
-.cs3left form{
-   padding: 40px 0;
+.cs3left form{ */
+   /* padding: 40px 0;
 }
 .cs3div .cs3left h1 {
     font-size: 2rem;
     font-weight: bold;
-}
+} */
 .cs3div .cs3left input {
     height: 40px;
     display: block;
@@ -225,7 +272,7 @@
    font-weight: 700;
    margin: 20px;
 
-   padding: 0 100px;
+   padding: 0px;
 
 }
 .contactussection p {
@@ -236,6 +283,41 @@
       margin: 0 20px 20px 20px;
 
 }
+.cssection2{
+    background: linear-gradient(95.69deg, #8354E2 3.16%, #371087 103.9%);
+    padding: 0px 70px;
+}
+.cssection2 div{
+    margin: 0 0 20px 0!important;
+}
+.cssection2 section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+    text-align: center;
+    justify-content:center;
+}
+.cssection2 section h1{
+    font-size: 26px;
+    line-height: 36px;
+    font-weight: 700;
+    color: white;
+}
+.cssection2 section h2{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    color: white;
+}
+.cssection2 section p{
+    color: #fff;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.05em;
+    font-weight: 400;
+}
+
 /* conact us section 3 */
 .contactussection3 {
    padding: 50px 0px;

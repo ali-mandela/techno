@@ -13,30 +13,21 @@ import Footer from '../Component/Footer';
 import Blog from '../Component/Blog'
 import Map from '../Component/Map'
 import Testimonial from '../Component/Testimonial';
+import Banner from '../Component/Banner';
 
 const Home = () => {
     return (
         <div>
             <Navbar/>
+        <Banner/> 
             <Offer title="What we Offer ?" para=""/>
              <Area />  
-             <Clients name="OUR CLIENTS"/>
             <Testimonial/> 
+             <Clients name="OUR CLIENTS"/>
             <Map/>
             <Contact/>
             <Blog/> 
-            <Footer/>  
-
-            {/* <Header />
-            <Banner />
-            <Offer e="What we offer?" />
-
-            <Testimonial />
-            <Map />
-            <Contact />
-            <Blog />
-            <Footer /> */}
-            {/* <Offer  name="OUR CLIENTS"/> */}
+            <Footer/>   
         </div>
     );
 };
