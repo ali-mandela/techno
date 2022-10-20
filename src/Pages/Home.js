@@ -18,7 +18,7 @@ const Home = () => {
     return (
         <div>
             <Navbar/>
-            <Offer title="What we Offer ?" para="mandela construction"/>
+            <Offer title="What we Offer ?" para=""/>
              <Area />  
              <Clients name="OUR CLIENTS"/>
             <Testimonial/> 
