@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.erpouter{
+width: 100%;
+display: flex;
+padding: 30px 70px;
+margin-top: 20px;
+justify-content: center;
+}
+.erpinner{
+    padding: 0 10px;
+    width: 1200px;
+
+}
+.erpbody{
+    margin: 0;
+}
+.erpbody p{
+    font-size: 15px;
+
+    line-height: 21px;
+    font-weight: 400;
+    color: #474747;margin-bottom: 10px !important;
+}
+ 
+
+@media screen and (max-width:750px) {
+    .erpouter{
+        width: 100%;
+        display: flex;
+        padding: 30px 0px;
+        justify-content: center;
+        }
+        .erpinner{
+            padding: 0 20px;
+            width: 100vw;
+        
+        }
+        .erpbody{
+            margin: 20px 0;
+        }
+        .erpbody p{
+            font-size: 14px;
+            line-height: 21px;
+            font-weight: 400;
+            color: #474747;margin-bottom: 10px !important;
+        }
+       
+}

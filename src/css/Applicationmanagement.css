@@ -1,0 +1,309 @@
+@import url( 'https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+.AMouter {
+    width: 100%;
+    display: flex;
+    padding: 50px 70px;
+    justify-content: center;
+    background: #F1F1F1;
+}
+.AMinner {
+    padding: 0 10px;
+    width: 1200px;
+
+}
+.AMbodytopdiv {
+    display: flex;
+    gap: 20px;
+}
+.AMbodytopdiv div {
+    flex: 1;
+}
+.AMbodytopdiv div img {
+    float: right;
+}
+.border{
+    position: relative;
+}
+.border .border-span{
+    position: absolute;
+    height: 73%;
+    left: 20px;
+border-left: 2px solid orange;}
+
+.AMinner p {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.AMinner h2 {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #474747;
+}
+.AMinner h1 {
+    color: #482987;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.AMbody > img {
+    margin-bottom: 30px;
+}
+ 
+.AMsec3 {
+    background: #482987;
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    padding: 65px 85px;
+}
+.AMsec3body {
+    color: white !important;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.AMsec3body > div {
+    width: 20%;
+}
+.AMsec3 h1 {
+    color: white;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.AMsec3 h2 {
+    color: white !important;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.AMsec4 {
+    display: flex;
+    padding: 100px 0;
+
+}
+.AMsec4 > div {
+    flex: 1;
+}
+.AMsec4 > div img {
+    float: right;
+}
+
+.limg {
+    margin: 20px 0;
+}
+
+
+@media screen and (max-width:1200px) and (min-width:750px) {
+    .AMouter {
+        width: 100%;
+        display: flex;
+        padding: 20px 70px;
+        justify-content: center;
+        background: #F1F1F1;
+    }
+    .AMinner {
+        padding: 0 10px;
+        width: 100vw;
+    
+    }
+    .AMbodytopdiv {
+        display: flex;
+        gap: 20px;
+    }
+    .AMbodytopdiv div {
+        flex: 1;
+    }
+    .AMbodytopdiv div img {
+        float: right;
+    }
+    
+    .AMinner p {
+        font-size: 14px;
+        line-height: 21px;
+        font-weight: 400;
+        color: #474747;
+        margin-bottom: 30px;
+    }
+    .AMinner h2 {
+        font-size: 18px;
+        line-height: 36px;
+        font-weight: 700;
+        color: #474747;
+    }
+    .AMinner h1 {
+        color: #482987;
+        font-size: 27px;
+        line-height: 40px;
+        font-weight: 700;
+        padding-bottom: 20px;
+    }
+    .AMbody > img {
+        margin-bottom: 30px;
+    }
+   
+    .AMsec3 {
+        background: #482987;
+        color: #fff;
+        text-align: center;
+        border-radius: 20px;
+        padding: 65px 35px;
+    }
+    .AMsec3body {
+        color: white !important;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    .AMsec3body > div {
+        width: 20%;
+    }
+    .AMsec3 h1 {
+        color: white;
+        font-size: 26px;
+        line-height: 40px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    .AMsec3 h2 {
+        color: white !important;
+        font-size: 17px;
+        line-height: 30px;
+        font-weight: 700;
+        margin-top: 20px;
+    }
+    .AMsec4 {
+        display: flex;
+        padding: 100px 0;
+    
+    }
+    .AMsec4 > div {
+        flex: 1;
+    }
+    .AMsec4 > div img {
+        float: right;
+    }
+    
+    .limg {
+        margin: 20px 0;
+    }
+    
+}
+
+@media screen and (max-width:750px) and (min-width:250px) {
+     
+    
+.AMouter {
+    width: 100%;
+    display: flex;
+    padding: 20px 0px;
+    justify-content: center;
+    background: #F1F1F1;
+}
+.AMinner {
+    padding: 0 20px;
+    width: 100vw;
+
+}
+.AMbodytopdiv {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+ 
+.AMbodytopdiv div img {
+    float: none;
+}
+
+.AMinner p {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.AMinner h2 {
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #474747;
+}
+.AMinner h1 {
+    color: #482987;
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.AMbody > img {
+    margin-bottom: 15px;
+}
+ 
+.AMsec3 {
+    background: #482987;
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    padding: 35px 10px;
+}
+.AMsec3body {
+    color: white !important;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+.AMsec3body > div {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.AMsec3 h1 {
+    color: white;
+    font-size: 18px;
+    line-height: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.AMsec3 h2 {
+    color: white !important;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.AMsec4 {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0;
+
+}
+.AMsec4 > div {
+    flex: 1;
+}
+.AMsec4 > div img {
+    float: right;
+}
+
+.limg {
+    margin: 20px 0;
+}
+
+
+}

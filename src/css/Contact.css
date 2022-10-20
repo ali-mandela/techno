@@ -1,0 +1,129 @@
+/* .contactouter{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0 70px;
+    
+}
+.contactinner{
+    width: 1200px;
+    padding: 50px 10px;
+}
+.containerbody{ 
+    display: flex;
+    flex-direction: space-between; 
+}
+
+
+
+
+
+
+
+
+
+.contactdiv{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 90px;
+    position: relative;
+}
+.contactdivdiv button{
+    height: 70px;
+    width: 200px;
+    position: absolute;
+    right: 300px;
+    top: 120px;
+}
+
+@media (max-width:1000px) {
+    .contactdiv{
+        flex-direction: column;
+        padding: 50px 10px;
+    }
+    .contactdivdiv button{
+        position: static;
+        margin-top: 20px;
+    }
+    
+} */
+
+/*  */
+.contactouter{
+    width: 100%;
+    padding: 0 70px;
+    display: flex;
+    align-items: center;background: linear-gradient(95.69deg, #8354E2 3.16%, #371087 103.9%);
+    justify-content: center;
+} 
+.contactinner{
+    width: 1200px;
+    padding: 70px 10px;
+}
+.contactbody{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 60px;
+}
+.contactbody h1{
+    display: block;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-bottom: 17px;
+    font-size: 40px;
+    line-height: 48px;
+}
+.contactbody h2{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    display: block;
+    margin-bottom: 7px;
+}
+.contactbody h3{
+    letter-spacing: 0.05em;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 120%;
+}
+.contactbtn{
+    display: flex;
+    align-items: flex-end;
+}
+.contactbtn button{ 
+    background: #FF8B4A;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 56px;
+    letter-spacing: 0.005em;
+    height: 56px;
+    padding: 0 60px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 50px;
+}
+@media screen and (max-width:750px) {
+    .contactbody{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        gap: 60px;
+    }
+    .contactouter{
+        width: 100%;
+        padding: 0 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } 
+ 
+    .contactinner{
+        width: 100vh;
+        padding: 50px 0;
+    }
+}

@@ -1,0 +1,267 @@
+@import url( 'https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.testimonialouter {
+    display: flex;
+    justify-content: center;
+    background: #F7F7FB;
+    width: 100%;
+    padding: 120px 70px 110px 70px; 
+
+}
+.testimonialouter .slick-track,.testimonialouter .slick-active , .testimonialouter .slick-current{
+    padding: 0 !important;
+    height: 50% !important;
+    margin: 0 !important;
+}
+.testimonialouter .slick-slider, .testimonialouter .slick-initialized,.testimonialouter .slick-cloned, .testimonialouter .slick-list{
+    padding: 0;
+    height: 50% !important;
+    margin: 0;
+}
+.testimonialinner {
+    padding: 0 10px;
+    width: 1200px;
+} 
+.testimonialbodydiv h1{
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 700;
+    letter-spacing: 0.005em;
+    text-transform: uppercase;
+    color: #482987;
+}
+.testimonialbodydiv h2{
+    font-size: 24px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #170F49;
+    margin-top: 18px;
+    display: block;
+    margin-bottom: 22px;
+    font-weight: 700;
+}
+.testimonialdiv{
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+.testimonialdiv div{
+    background: #FFFFFF;
+    border: 1px solid #EFF0F7;
+    box-shadow: 0px 5px 14px rgb(8 15 52 / 4%);
+    border-radius: 20px;
+    padding: 50px;
+}
+.testimonialdiv h6{     
+    
+    font-size: 24px;
+     line-height: 24px;
+    letter-spacing: 0.005em;
+    color: #474747;
+    font-weight: 700;
+    margin-bottom: 15px;
+    display: block; 
+}
+.testimonialdiv div p{      
+
+    font-size: 18px;
+    line-height: 30px;
+    color: #6F6C90;
+    font-weight: 400;
+} 
+.testimonialdiv div h6{ 
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: #170F49;
+    display: block;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #6F6C90;
+    display: block;
+    margin-top: 5px;
+}
+.testimonialdiv div h3{  
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #6F6C90;
+    display: block;
+    margin-top: 5px;
+}
+.testimonialdiv-mobile{
+    display: none;
+}
+ 
+ 
+ 
+ 
+ 
+@media screen and (max-width:1200px) and (min-width:750px) {
+
+
+ 
+    .testimonialinner {
+        padding: 0 10px;
+        width:100vw;
+    } 
+   
+    .testimonialbodydiv h2{
+        font-size: 18px;
+        line-height: 40px; 
+        margin-top: 14px; 
+        margin-bottom: 18px; 
+    }
+    .testimonialdiv{
+        display: flex;
+        justify-content: space-around;
+        gap: 30px;
+    }
+    .testimonialdiv div{
+        background: #FFFFFF;
+        border: 1px solid #EFF0F7;
+        box-shadow: 0px 5px 14px rgb(8 15 52 / 4%);
+        border-radius: 20px;
+        padding: 20px;
+    }
+    .testimonialdiv div h6{     
+        font-size: 17px;
+        line-height:24px;
+        letter-spacing: 0.005em;
+        color: #474747;
+        font-weight: 700;
+        margin-bottom: 12px;
+        display: block; 
+    }
+    .testimonialdiv div p{      
+    
+        font-size: 18px;
+        line-height: 30px;
+        color: #6F6C90;
+        font-weight: 400;
+    } 
+    .testimonialdiv div h6{ 
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 20px;
+        color: #170F49;
+        display: block;
+        margin-top: 10px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        color: #6F6C90;
+        display: block;
+        margin-top: 5px;
+    }
+    .testimonialdiv div h3{  
+        margin-top: 10px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        color: #6F6C90;
+        display: block;
+        margin-top: 5px;
+    }
+ 
+}
+   
+@media screen and (max-width:750px) and (min-width:200px) {
+
+  
+.testimonialouter {
+    display: flex;
+    justify-content: center;
+    background: #F7F7FB;
+    width: 100%;
+    padding: 0; 
+
+}
+.testimonialinner {
+    padding: 0 20px;
+    width: 100vw;
+} 
+.testimonialbodydiv h1{ 
+    font-size: 26px;
+    line-height: 36px;
+    font-weight: 700;
+    letter-spacing: 0.005em;
+    text-transform: uppercase;
+    color: #482987;
+}
+.testimonialbodydiv h2{
+    text-transform: uppercase;
+    color: #170F49;
+    margin-top: 18px;
+    display: block;
+    margin-bottom: 22px;
+    font-size: 16px;
+    line-height: 30px;  
+}
+.testimonialdiv{
+    display: none; 
+    height: 100%;
+}
+/* ----------- */
+.testimonialdiv-mobile{
+    display: block; 
+}
+ 
+.testimonialdiv-mobile div{
+    background: #FFFFFF;
+    border: 1px solid #EFF0F7;
+    box-shadow: 0px 5px 14px rgb(8 15 52 / 4%);
+    border-radius: 20px;
+    padding: 10px; 
+    margin: 0;
+}
+.testimonialdiv-mobile h6{     
+    font-size: 24px;
+     line-height: 24px;
+    letter-spacing: 0.005em;
+    color: #474747;
+    font-weight: bolder;
+    margin-bottom: 15px;
+    display: block; 
+}
+.testimonialdiv-mobile div p{      
+
+    font-size: 18px;
+    line-height: 30px;
+    color: #6F6C90;
+    font-weight: 400;
+} 
+.testimonialdiv-mobile div h6{  
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #6F6C90;
+    display: block;
+    margin-top: 5px;
+}
+.testimonialdiv-mobile div h3{  
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #6F6C90;
+    display: block;
+    margin-top: 5px;
+}
+ 
+
+ 
+
+}
+ 

@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ 
+
+.ampara{
+    display: flex;  
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative; 
+}
+.amparaindex{
+    flex:1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+}
+.amparadetails{
+    flex: 11;
+}
+.amparaindex span{
+    border: 3px solid orange;
+    border-radius: 100%;
+    padding: 8px 16px;
+    color: orange;
+    font-weight: bolder;
+    font-size: 18px;
+    z-index: 1;
+    background-color: white;
+}
+.amparadetails h1{
+    color: black;
+
+}
+.amparadetails p{
+    color: black;
+
+}

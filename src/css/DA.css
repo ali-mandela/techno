@@ -1,0 +1,150 @@
+
+
+.dataanalyticsouter{
+width: 100%;
+padding: 60px 70px;
+display: flex;
+justify-content: center;
+}
+.dataanalyticsinner{
+width: 1200px;
+padding: 0 10px;
+display: flex;
+justify-content: center;
+}
+ 
+.image1{ 
+    float: left;
+    margin: 0 15px 0 0;    
+    height: auto;    
+    max-width: 100%;
+}
+.image2{
+    float: right;
+    margin: 0 0 0 15px;
+    height: auto;
+    max-width: 100%;
+
+}
+.databody p{
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #474747;
+    margin-bottom: 10px !important; 
+}
+.databody h2{
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 21px; 
+    color: #474747;
+    margin: 5px 0;
+}
+.databody p a{
+color: #F2820E;
+text-decoration: none;
+}
+
+@media screen and (max-width:750px) and (min-width:240px) {
+    
+
+.dataanalyticsouter{ 
+    padding: 0 !important;  
+    }
+    .dataanalyticsinner{
+    padding: 30px 20px; 
+    width: 100vw; 
+
+    }
+ 
+ 
+    .image1{
+        float: none;
+        margin: 0 15px 0 0;    
+        height: auto;    
+        max-width: 100%;
+    }
+    .image2{
+        float: right;
+        margin: 0 0 0 15px;
+        height: auto;
+        max-width: 100%;
+    
+    }
+    .databody p{
+        font-size: 14px;
+        line-height: 21px;
+        font-weight: 400;
+        color: #474747;
+        margin-bottom: 10px !important; 
+    }
+    .databody h2{
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 21px; 
+        color: #474747;
+        margin: 5px 0;
+    }
+    .databody p a{ 
+
+    text-decoration: none;
+    }
+    
+}
+
+
+.databody video{
+    width: 840px;
+    height: 472px;
+}
+@media screen and (max-width:1030px) and (min-width:750px) {
+    .databody video{
+       width: 840px;
+       height: 472px;
+    }
+    
+}
+@media screen and (max-width:750px) and (min-width:700px) {
+    .databody video{
+       width: 720px;
+       height: 405px;
+    }
+    
+}
+@media screen and (max-width:700px) and (min-width:650px) {
+    .databody video{
+       width: 680px;
+       height: 385px;
+    }
+    
+}
+@media screen and (max-width:650px) and (min-width:550px) {
+    .databody video{
+       width: 530px;
+       height: 340px;
+    }
+    
+}
+@media screen and (max-width:450px) and (min-width:400px) {
+    .databody video{
+       width: 370px;
+       height: 230px;
+    }
+    
+}
+@media screen and (max-width:400px) and (min-width:350px) {
+    .databody video{
+       width: 320px;
+       height: 190px;
+    }
+    
+}
+@media screen and (max-width:350px) and (min-width:350px) {
+    .databody video{
+       width: 290px;
+       height: 170px;
+    }
+    
+}
+ 
+

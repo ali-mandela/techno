@@ -1,0 +1,114 @@
+.offerbodyComp {
+    display: flex;
+    margin-right: 20px;
+    padding: 20px;
+    float: left;
+    width: 47%;
+    gap: 10px;
+    height: 165px;
+    border-radius: 20px;
+    background-color: white;
+}
+.skropay{
+    display: none;
+}
+.offerbodyCompleft {
+    flex: 3;
+}
+.offerbodyCompright {
+    flex: 9;
+}
+.offerbodyCompleft img {
+    object-fit: cover;
+}
+.offerbodyComp:hover {
+    box-shadow: 4px 4px 4px gray;
+}
+.offerbodyCompright h2 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #474747;
+}
+.offerbodyCompright p {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #474747;
+    margin-top: 10px;
+}
+.offerbodyCompright span {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #f2820e;
+    margin-top: 15px;
+    display: block;
+}
+@media screen and (max-width:1200px) and (min-width:760px) {
+    .offerbodyComp {
+        display: flex;
+        margin-right: 10px;
+        padding: 20px;
+        float: left;
+        width: 45%;
+        gap: 10px;
+        height: 165px;
+        border-radius: 10px;
+        background-color: white;
+    }
+    .offerbodyCompright h2 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .offerbodyCompright p {
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 400;
+        color: #474747;
+        margin-top: 10px;
+    }
+    .offerbodyCompright span {
+        font-size: 14px;
+        line-height: 12px;
+        color: #f2820e;
+        margin-top: 15px;
+        display: block;
+    }
+
+}
+@media screen and (max-width:750px) and (min-width:120px) {
+
+
+    .offerbodyComp {
+        margin-right: 0px;
+        padding: 20px;
+        float: left;
+        width: 100vw;
+        gap: 10px;
+        height: 100%;
+        border-radius: 20px;
+        background-color: white;
+    } 
+    .offerbodyCompright h2 {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 700;
+        color: #474747;
+    }
+    .offerbodyCompright p {
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 400;
+        color: #474747;
+        margin-top: 5px;
+    }
+    .offerbodyCompright span {
+        font-size: 16px;
+        line-height: 18px;
+        font-weight: 600;
+        color: #f2820e;
+        margin-top: 8px;
+        display: block;
+    }
+    }

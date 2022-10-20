@@ -1,0 +1,205 @@
+@import url( 'https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.mapouter {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0 70px;
+    padding-top: 65px;
+    padding-bottom: 115px;
+}
+.mapinner {
+    padding: 0 10px;
+    width: 1200px;
+}
+.mapdiv{
+    text-align: center; 
+    /* padding: 30px 20px; */
+    width: 100%;  
+    object-fit: contain; 
+    
+    
+}
+.mapdiv h1{
+    color: #482987;
+    text-align: center; 
+    margin-bottom: 30px;
+    font-size: 48px;
+    line-height: 72px;
+    font-weight: 700;
+}
+.mapimg{
+    /* 
+    width: 100%;	1140 × 470 px
+     */ 
+     height: 100%;
+    background-position: center; 
+    background-size: contain; 
+    object-fit: cover;
+    height: 470px;
+    margin: 0 auto;position: relative;
+    width: 100% !important;background-repeat: no-repeat; 
+}
+
+.map {
+    display: block;
+    width: 40px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--css);
+    animation-name: bounce;
+    animation-duration: 0.575s;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(0.6, 0.08, 0.8, 0.6);
+    animation-iteration-count: infinite;
+}
+
+.ml-32{
+    position: absolute;
+    top: 40%;
+    right: 45%;
+}
+.mx-31{
+    position: absolute;
+    top: 30%;
+    right: 45%;
+}
+.mx-3{
+    position: absolute;
+    top: 20%;
+    right: 40%;
+}
+@keyframes bounce {
+    from {
+        transform: translate3d(0, 0, 0);
+    }
+
+    to {
+        transform: translate3d(0, 10px, 0);
+    }
+}
+@media(max-width:1220px) and (min-width:750px)
+{
+    .mapouter {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0 ;
+    padding-top: 65px;
+    padding-bottom: 115px;
+}
+.mapinner {
+    padding: 0 10px;
+    width: 100vw;
+}
+.mapimg{ 
+     height: 100%;
+    background-position: center; 
+    background-size: contain; 
+    object-fit: cover;
+    height: 3800px;
+    margin: 0 auto;position: relative;
+    width: 100% !important;background-repeat: no-repeat; 
+}
+
+}
+@media(max-width:1200px) and (min-width:750px)
+{
+    .mapouter {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0 70px;
+    padding-top: 65px;
+    padding-bottom: 115px;
+}
+.mapinner {
+    padding: 0 10px;
+    width: 100vw;
+}
+.mapimg{ 
+     height: 100%;
+    background-position: center; 
+    background-size: contain; 
+    object-fit: cover;
+    height: 380px;
+    margin: 0 auto;position: relative;
+    width: 100% !important;background-repeat: no-repeat; 
+}
+
+}
+@media(max-width:750px) and (min-width:205px)
+{
+    /* .mapdiv h1{
+        font-size: 2rem;
+    }
+    .mapimg{
+        height: 20vh;    font-size: 30px;
+    line-height: 54px;
+}
+    }
+    .map{
+        width: 40px;
+        height: 50px;
+    } */
+    .mapouter {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 0 ;
+        padding-top: 65px;
+        padding-bottom: 115px;
+    }
+    .mapinner {
+        padding: 0 20px;
+        width: 100vw;
+    }
+    .mapimg{
+        /* 
+        width: 100%;	1140 × 470 px
+         */ 
+         height: 100%;
+        background-position: center; 
+        background-size: contain; 
+        object-fit: cover;
+        height: 320px;
+        margin: 0 auto;position: relative;
+        width: 100% !important;background-repeat: no-repeat; 
+    }
+    .mapinner h1{
+        font-size: 30px;
+        line-height: 54px;
+    }
+    .map {
+        display: block;
+        width: 25px;
+        height: 32px; 
+        animation-name: bounce;
+        animation-duration: 0.575s; 
+        animation-timing-function: cubic-bezier(0.6, 0.08, 0.8, 0.6); 
+    }.ml-32{
+        position: absolute;
+        top: 32%;
+        right: 35%;
+    }
+    .mx-31{
+        position: absolute;
+        top: 30%;
+        right: 45%;
+    }
+    .mx-3{
+        position: absolute;
+        top: 38%;
+        right: 20%;
+    }
+    }
+
+
+

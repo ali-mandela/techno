@@ -1,0 +1,365 @@
+
+.contactusouter {
+    width: 100%;
+    padding: 0 70px;
+    display: flex;
+    justify-content: center;
+}
+.contactusinner {
+    width: 1200px;
+    padding: 0 10px;
+
+}
+.contactussection {
+    padding: 70px 0;
+    text-align: center;
+}
+.contactussection h1 {
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 700;
+    margin: 0 30px 20px 30px;
+
+    padding: 0 100px;
+
+}
+.contactussection p {
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #474747;    margin: 0 30px 20px 30px;
+
+}
+/* contact us section 2
+.contactussection2 {
+    background-image: linear-gradient(#9b51e0, #482987);
+    display: flex; 
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 70px 0;
+}
+.contactusection2inner{
+   display: flex;
+   width: 1200px;
+   padding: 0 10px;
+   justify-content: stretch;
+}
+.cssection2 h1 {
+    font-size: 2rem;
+    font-weight: bolder;
+    color: white;
+}
+.cssection2 div {
+    margin: 20px;
+}
+.cssection2 p {
+    font-size: 1rem;
+    color: white;
+} */
+
+/* conact us section 3 */
+.contactussection3 {
+    padding: 50px 0px;
+}
+.cs3h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 30px 0;
+} 
+.cs3Topdiv {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   gap: 30px;
+   padding:0;
+
+}
+.cs3Topdiv h1{
+   font-size: 34px;
+}
+
+.cs3Topdiv div{
+   background-color: rgb(218, 212, 212);
+   padding: 0 10px;
+   position: relative;
+   width: 30%;
+   border-radius: 10px;
+   overflow: hidden;
+   transition: all 1s ease-in-out;
+
+}
+.cs3Topdivmain p{
+   width: 100%;
+
+}
+.cs3Topdiv i {
+   position: absolute;
+   top: 15px;
+   right: 25px;
+   color: orange;
+}
+/* address */
+.aa {
+   height: auto; 
+}
+.dd {
+   height: auto;
+}
+.cc {
+   height: 45px;
+}
+.bb {
+   height: auto;
+}
+.cs3Topdiv h1 {
+   font-size: 2rem;
+   font-weight: bolder;
+}
+
+.cs3div {
+    display: flex; 
+    gap: 50px;
+    margin: 50px 0;
+
+}
+.cs3left {
+    padding:0;
+    flex: 1;
+}
+.cs3left form{
+   padding: 40px 0;
+}
+.cs3div .cs3left h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.cs3div .cs3left input {
+    height: 40px;
+    display: block;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 0 20px;
+    width: 100%;
+    color: black;
+    background-color: #e5e7eb;
+}
+.cs3div .cs3left textarea {
+    display: block;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #e5e7eb;
+    width: 100%;
+}
+.cs3div .cs3left button {
+
+    margin: 40px auto;
+    padding: 20px 50px;
+    font-weight: 900;
+    color: white;
+    background-color: orange;
+    border-radius: 5%;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+
+}
+.cs3div .cs3right {
+    flex: 1;
+}
+.cs3div .cs3right h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.cs3div .cs3right div {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+.cs3div .cs3right h2 {
+    font-size: 2rem;
+    display: inline;
+    font-weight: bold;
+}
+.cs3div .cs3right i {
+    color: orange;
+    margin-left: 20px;
+}
+.cs3rightimg {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    gap: 30px;
+}
+.cs3right img {
+    display: inline;
+    max-width: 150px;
+    max-height: 150px;
+    object-fit: contain;
+}
+ 
+
+@media screen and (max-width:750px) {
+   
+   .contactusouter {
+      width: 100%;
+      padding: 0 0px;
+      display: flex;
+      justify-content: center;
+  }
+  .contactusinner {
+      width: 100vw;
+      padding: 0 w0px;
+  
+  }
+  .contactussection {
+   padding: 50px 0;
+   text-align: center;
+}
+.contactussection h1 {
+   font-size: 24px;
+   line-height: 34px;
+   font-weight: 700;
+   margin: 20px;
+
+   padding: 0 100px;
+
+}
+.contactussection p {
+   font-size: 14px;
+   line-height: 21px;
+   font-weight: 400;
+   color: #474747; 
+      margin: 0 20px 20px 20px;
+
+}
+/* conact us section 3 */
+.contactussection3 {
+   padding: 50px 0px;
+}
+.cs3h1 {
+   text-align: center;
+   font-size: 3rem;
+   font-weight: 700;
+   margin: 30px 0;
+} 
+.cs3Topdiv {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding:0;
+
+}
+.cs3Topdiv h1{
+  font-size: 24px;
+}
+
+.cs3Topdiv div{
+  background-color: rgb(218, 212, 212);
+  padding: 0 10px;
+  position: relative;
+  width: 30%;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 1s ease-in-out;
+
+}
+.cs3Topdivmain p{
+  width: 100%;
+
+}
+.cs3Topdiv i {
+  position: absolute;
+  top: 15px;
+  right: 25px;
+  color: orange;
+}
+ 
+   /* contact form and socaial  */
+   .cs3div {
+      display: flex; 
+      flex-direction: column;
+      gap: 50px;
+      margin: 50px 0;
+  
+  }
+  .cs3left {
+      padding:0;
+      flex: 1;
+  }
+  .cs3left form{
+     padding: 40px 0;
+  }
+  .cs3div .cs3left h1 {
+      font-size: 2rem;
+      font-weight: bold;
+  }
+  .cs3div .cs3left input {
+      height: 40px;
+      display: block;
+      margin-top: 10px;
+      border-radius: 10px;
+      padding: 0 20px;
+      width: 100%;
+      color: black;
+      background-color: #e5e7eb;
+  }
+  .cs3div .cs3left textarea {
+      display: block;
+      margin-top: 10px;
+      border-radius: 10px;
+      padding: 20px;
+      background-color: #e5e7eb;
+      width: 100%;
+  }
+  .cs3div .cs3left button {
+  
+      margin: 40px auto;
+      padding: 20px 50px;
+      font-weight: 900;
+      color: white;
+      background-color: orange;
+      border-radius: 5%;
+      justify-content: center;
+      align-self: center;
+      align-items: center;
+  
+  }
+  .cs3div .cs3right {
+      flex: 1;
+  }
+  .cs3div .cs3right h1 {
+      font-size: 2rem;
+      font-weight: bold;
+  }
+  .cs3div .cs3right div {
+      margin-top: 40px;
+      display: flex;
+      align-items: center;
+  }
+  .cs3div .cs3right h2 {
+      font-size: 2rem;
+      display: inline;
+      font-weight: bold;
+  }
+  .cs3div .cs3right i {
+      color: orange;
+      margin-left: 20px;
+  }
+  .cs3rightimg {
+      display: flex;
+      justify-content: flex-start;
+      width: 100%;
+      gap: 30px;
+  }
+  .cs3right img {
+      display: inline;
+      max-width: 150px;
+      max-height: 150px;
+      object-fit: contain;
+  }
+}

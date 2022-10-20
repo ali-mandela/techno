@@ -1,0 +1,156 @@
+@import url( 'https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+ 
+
+.pagesouter{
+    border-radius: 0 0 50% 50% / 50px;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    padding: 40px 70px;
+    justify-content: center;
+}
+ 
+ 
+.pagesinner{
+    color: white; 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 1200px; 
+    height: 160px; 
+    padding: 0 10px;
+}
+.pagesHeaderBody{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.pagesHeaderBody hr{  
+    border-top: 4px solid white;
+    margin: 20px 0;
+    width: 200px;
+
+}
+.pagesHeaderBody h1{
+    font-size: 48px;
+    line-height: 72px;
+    font-weight: 700;
+    margin-top: 20px 0;
+}
+.pagesHeaderBody h2{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700; 
+    margin-top: 10px;
+}
+
+@media screen and (max-width:1200px) and (min-width:750px) {
+  
+    
+.pagesouter{
+    border-radius: 0 0 50% 50% / 50px;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    padding: 40px 0;
+    justify-content: center;
+}
+
+ 
+.pagesinner{
+    color: white; 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100vw; 
+    height: 160px; 
+    padding: 0 10px;
+}
+.pagesHeaderBody{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.pagesHeaderBody hr{  
+    border-top: 4px solid white;
+    margin: 20px 0;
+    width: 200px;
+
+}
+.pagesHeaderBody h1{
+    font-size: 48px;
+    line-height: 72px;
+    font-weight: 700;
+    margin-top: 20px 0;
+}
+.pagesHeaderBody h2{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700; 
+    margin-top: 10px;
+}
+
+
+}
+
+
+
+@media screen and(max-width:748px) and (min-width:200px) {
+    .pagesouter{
+        border-radius: 0 0 50% 50% / 50px;
+        background-size: cover;
+        width: 100%;
+        display: flex;
+        padding: 20px 0px !important;
+        justify-content: center;
+        
+    }
+     
+     
+    .pagesinner{
+        color: white; 
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width:100vw; 
+        height: 190px; 
+        padding: 0 20px;
+    }
+    .pagesHeaderBody{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .pagesHeaderBody hr{  
+        border-top: 4px solid white;
+        margin-top: 10px ;
+        width: 200px;
+    
+    }
+    .pagesHeaderBody h1{
+        font-size: 24px;
+        line-height: 32px;
+        font-weight: 600;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .pagesHeaderBody h2{
+        font-size: 18px;
+        line-height: 20;
+        font-weight: 700; 
+        width: 100%;
+        margin-top: 10px;
+    }
+}

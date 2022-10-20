@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.zohoouter{
+width: 100%;
+display: flex;
+padding: 100px 70px;
+justify-content: center;
+}
+.zohoinner{
+    padding: 0 10px;
+    width: 1200px;
+
+}
+.zohobody{
+    margin: 30px 0;
+}
+.zohobody p{
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #474747;margin-bottom: 10px !important;
+}
+.zohobody img{
+    width: 840px;
+height: auto;
+margin: 20px 0 50px 0 ;
+
+}
+
+@media screen and (max-width:750px) {
+    .zohoouter{
+        width: 100%;
+        display: flex;
+        padding: 30px 0px;
+        justify-content: center;
+        }
+        .zohoinner{
+            padding: 0 20px;
+            width: 100vw;
+        
+        }
+        .zohobody{
+            margin: 20px 0;
+        }
+        .zohobody p{
+            font-size: 14px;
+            line-height: 21px;
+            font-weight: 400;
+            color: #474747;margin-bottom: 10px !important;
+        }
+        .zohobody img{
+            width: 840px;
+        height: auto;
+        margin: 20px 0 50px 0 ;
+        
+        }
+}

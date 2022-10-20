@@ -1,9 +1,80 @@
+@import url( 'https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+.outerBanner {
+
+    height: 100%;
+    width: 100%;
+
+}
+.innerBanner {
+
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 80px;
+    height: 110vh;
+    width: 100%;
+    border-radius: 0 0 50% 50% / 100px;
+}
+
+.mainBannerDiv {
+    display: flex;
+    width: 100vw;
+    padding: 0 10px;
+    height: 70vh;
+    justify-content: space-around;
+
+}
+
+.mainBannerDivLeft {
+    width: 50%;
+    display: flex;
+    color: white;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.mainBannerDivRigth {
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.mainBannerDivLeft h1 {
+    font-size: 2.2rem;
+    font-weight: bolder;
+
+}
+.mainBannerDivLeft h2 {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    margin-top: 30px;
+}
+.mainBannerDivLeft a {
+    font-size: 1.5rem;
+    background-color: orange;
+    border-radius: 50px;
+    padding: 15px;
+    margin-top: 30px;
+    text-align: center;
+    width: 200px;
+
+}
 .card {
     position: relative;
-    width: 200px;
-    height: 220px;
+    width: 180px;
+    height: 180px;
     margin: 10px;
-} 
+    display: flex;
+    flex-direction: row;
+}
 
 .card .face {
     position: absolute;
@@ -12,7 +83,7 @@
     backface-visibility: hidden;
     border-radius: 10px;
     overflow: hidden;
-    transition: .5s;
+    transition: 0.5s;
 }
 
 .card .front {
@@ -40,62 +111,55 @@
 
 .card .back {
     transform: perspective(600px) rotateY(180deg);
-    background: rgb(3, 35, 54);
-    padding: 15px;
-    color: #f3f3f3;
+    background-color: #fff;
+    padding: 10px 5px;
+    color: black;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
     text-align: center;
     box-shadow: 0 5px 10px #000;
 }
-
 
 .card .back h3 {
     font-size: 30px;
     margin-top: 20px;
     letter-spacing: 2px;
+    color: black;
 }
 
 .card .back p {
     letter-spacing: 1px;
+    font-size: 14px;
+    color: rgb(171, 169, 169);
 }
-
 .card:hover .front {
     transform: perspective(600px) rotateY(180deg);
 }
-
 .card:hover .back {
     transform: perspective(600px) rotateY(360deg);
 }
-.roundedbanner{
-    padding-top: 90px;
-    padding-bottom:0;
-    border-bottom-right-radius: 300px;
-    border-bottom-left-radius: 300px;
+.card:nth-child(1) {
+    top: -10px;
+    left: 60px;
+}
+.card:nth-child(2) {
+    top: 40px;
+    left: 100px;
+}
+.card:nth-child(3) {
+    top: 10px;
+    left: 10px;
+}
+.card:nth-child(4) {
+    top: 40px;
+    left: 10px;
+}
+.card:nth-child(5) {
+    top: -120px;
+    left: 400px;
 }
 
-.bannermaindiv{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-bottom: 100px;
-}
-.bannerdivleft{
-    padding: 20px;
-    width: 50%;
-}
-.bannerdivright{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    
-    width: 50%;
-
-}
-
-
-@media(max-width:800px) {
+/* @media(max-width:800px) {
     .bannermaindiv{
         flex-direction: column;
         height: auto;
@@ -117,4 +181,43 @@
         margin: 10px;
     }
     
+} */
+
+/* @media (max-width:1100px) and( min-width:720px) {
+
+      /* .card:nth-child(5) {
+        display: none;
+  } */
+@media screen and (min-width: 720px) and (max-width: 1100px) {
+    .mainBannerDivLeft {
+        align-items: flex-start;
+        justify-content: start;
+        background-color: #000;
+    }
+    .card:nth-child(5) {
+        display: none;
+    }
+}
+@media screen and (min-width: 20px) and (max-width: 720px) {
+
+    .mainBannerDiv {
+        flex-direction: column;
+
+    }
+
+    .mainBannerDivLeft {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .mainBannerDivRigth {
+        width: 100%;
+
+        position: relative;
+        display: flex; 
+        flex-wrap: wrap;
+
+    }  .card:nth-child(5) {
+        display: none;
+    }
 }
