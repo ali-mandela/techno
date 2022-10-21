@@ -75,101 +75,160 @@ padding: 0 10px;
     padding: 100px 0;
     text-align: center;
 }
+
+
 @media screen and (max-width:1200px) and (min-width:750px) {
 
-    .aboutouter{ 
+    
+    .aboutouter{
+    display: flex;
+    justify-content: center;
+    padding: 50px 70px;
+    }
+    .abourinner{
+    width: 100vw;
+    padding: 0 10px;
+    }
+    .aboutbody h1{
+        color: #482987;
+        text-align: center;
+        display: block;
+        margin-bottom: 20px;
+        font-size: 48px;
+        line-height: 72px;
+        font-weight: 700;
+    }
+    .abouttopdiv{
+        display: flex;
+        grid:20px;
+    }
+    .abouttopdiv div{
+        width: 50%;
+    }
+    /* .abouttopdiv{ 
+    } */
+    .abouttopdiv img{
+        float: right; 
+    } 
+    .abouttopdiv div  h2{
+        font-size: 32px;
+        line-height: 40px;
+        font-weight: 700;    padding-bottom: 20px;
+        display: block;
+        color: #474747;
+    }
+    .abouttopdiv div p{ 
+        font-size: 14px;
+        line-height: 21px;
+        font-weight: 400;
+        color: #474747;
+        margin-bottom: 15px;
+    }
+    .aboutseconddiv{
+        background: #482987;
+        border-radius: 20px;
+        padding: 60px 140px;
+        margin-top: 120px;
+        color: white !important;
+        
+    }
+    .aboutsecondbody{
+        display: flex;
+        margin-bottom: 40px;
+        flex-direction: row;
+    }
+    .aboutsecondbody .aboutsecondbodyl{
+        flex: 3;
+        margin-right: 20px;
+    }
+    .aboutsecondbody .aboutsecondbodyr{
+        flex: 9;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .aboutthirddiv{
+        padding: 100px 0;
+        text-align: center;
+    }    }
+    @media screen and (max-width:750) and (min-width:200px) {
+
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .aboutouter{
+        display: flex;
+        justify-content: center;
         padding: 70px 70px;
         }
         .abourinner{
-        width: 100vw; 
+        width: 1200px;
+        padding: 0 10px;
         }
-        .aboutbody h1{ 
-            font-size: 38px;
-            line-height: 62px; 
-        }   
-        .abouttopdiv img{ 
-            height: auto;
-        }  
+        .aboutbody h1{
+            color: #482987;
+            text-align: center;
+            display: block;
+            margin-bottom: 20px;
+            font-size: 48px;
+            line-height: 72px;
+            font-weight: 700;
+        }
+        .abouttopdiv{
+            display: flex;
+            grid:30px;
+        }
+        .abouttopdiv div{
+            width: 50%;
+        }
+        /* .abouttopdiv{ 
+        } */
+        .abouttopdiv img{
+            float: right; 
+        } 
+        .abouttopdiv div  h2{
+            font-size: 32px;
+            line-height: 40px;
+            font-weight: 700;    padding-bottom: 20px;
+            display: block;
+            color: #474747;
+        }
+        .abouttopdiv div p{ 
+            font-size: 14px;
+            line-height: 21px;
+            font-weight: 400;
+            color: #474747;
+            margin-bottom: 15px;
+        }
         .aboutseconddiv{
-            padding: 60px 100px;
-            margin-top: 100px;
+            background: #482987;
+            border-radius: 20px;
+            padding: 60px 140px;
+            margin-top: 120px;
+            color: white !important;
             
         }
-    }
-    @media screen and (max-width:750) and (min-width:200px) {
-
-        .aboutouter{
-            padding: 0;
-            background-color: cadetblue;
-            }
-            .abourinner{
-            width: 100vw;
-            padding: 0 20px;
-            }
-            .aboutbody h1{
-                color: #482987;
-                text-align: center;
-                display: block;
-                margin-bottom: 20px;
-                font-size: 38px;
-                line-height: 8px;
-                font-weight: 700;
-            }
-         
-            .abouttopdiv{
-                display: flex;
-                flex-direction: column;
-            }
-            .abouttopdiv div{
-                width: 100%;
-            } 
-         .abouttopdivr img{
-                float: none; 
-            } 
-       
-            .abouttopdiv div  h2{
-                font-size: 32px;
-                line-height: 40px;
-                font-weight: 700;    padding-bottom: 20px;
-                display: block;
-                color: #474747;
-            }
-            .abouttopdiv div p{ 
-                font-size: 14px;
-                line-height: 21px;
-                font-weight: 400;
-                color: #474747;
-                margin-bottom: 15px;
-            }
-            .aboutseconddiv{
-                background: #482987;
-                border-radius: 20px;
-                padding: 60px 140px;
-                margin-top: 120px;
-                color: white !important;
-                
-            }
-            .aboutsecondbody{
-                display: flex; 
-                margin-bottom: 40px;
-                flex-direction: column;
-            }
-            .aboutsecondbody .aboutsecondbodyl{
-                flex: 3;
-                margin-right: 20px;
-            }
-            .aboutsecondbody .aboutsecondbodyr{
-                flex: 9;
-                display: flex;
-                flex-direction: column;
-                justify-content: flex-start;
-                align-items: flex-start;
-            }
-            .aboutthirddiv{
-                padding: 100px 0;
-                text-align: center;
-            }
-}
-/*     */
-/*  */
-/*  */ 
+        .aboutsecondbody{
+            display: flex;
+            margin-bottom: 40px;
+            flex-direction: row;
+        }
+        .aboutsecondbody .aboutsecondbodyl{
+            flex: 3;
+            margin-right: 20px;
+        }
+        .aboutsecondbody .aboutsecondbodyr{
+            flex: 9;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+        }
+        .aboutthirddiv{
+            padding: 100px 0;
+            text-align: center;
+        }
+} 
