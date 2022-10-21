@@ -10,8 +10,7 @@ import Zoho from './Pages/zoho'
 import Contactus from './Pages/Contactus'
 import Dataanalytics from './Pages/Dataanalytics';
 import CI from './Pages/CI'
-import Amparagraph from './Component/amParagraph';
-
+import Amparagraph from './Component/amParagraph';  
 
 function App() {
   return (<>  
@@ -26,7 +25,7 @@ function App() {
         <Route path='/Cyber' element={ <Cybersecurity/>} />
         <Route path='/DA' element={ <Dataanalytics/>} /> 
         <Route path='/CloudIntergration' element={<CI/>}/>
-        <Route path='/eror' element={<Amparagraph/>}/> 
+        <Route path='/eror' element={<Amparagraph/>}/>  
 
    </Routes>  
   </>

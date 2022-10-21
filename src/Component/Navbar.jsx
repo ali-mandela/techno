@@ -22,7 +22,7 @@ const Navbar = () => {
     <div className='nav'>
         <div className='navbar'>
             <div className="logo">
-                <img src={logo} alt="logo"/>
+               <Link to='/' ><img src={logo} alt="logo"/></Link> 
             </div>
             <ul
                 className={menu === true

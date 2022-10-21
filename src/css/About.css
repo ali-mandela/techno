@@ -23,6 +23,7 @@ padding: 0 10px;
 }
 .abouttopdiv{
     display: flex;
+    flex-direction: row;
     grid:30px;
 }
 .abouttopdiv div{
@@ -33,14 +34,14 @@ padding: 0 10px;
 .abouttopdiv img{
     float: right; 
 } 
-.abouttopdiv div  h2{
+.abouttopdivl  h2{
     font-size: 32px;
     line-height: 40px;
     font-weight: 700;    padding-bottom: 20px;
     display: block;
     color: #474747;
 }
-.abouttopdiv div p{ 
+.abouttopdivl p{ 
     font-size: 14px;
     line-height: 21px;
     font-weight: 400;
@@ -75,97 +76,15 @@ padding: 0 10px;
     padding: 100px 0;
     text-align: center;
 }
-
-
 @media screen and (max-width:1200px) and (min-width:750px) {
-
     
     .aboutouter{
-    display: flex;
-    justify-content: center;
-    padding: 50px 70px;
-    }
-    .abourinner{
-    width: 100vw;
-    padding: 0 10px;
-    }
-    .aboutbody h1{
-        color: #482987;
-        text-align: center;
-        display: block;
-        margin-bottom: 20px;
-        font-size: 48px;
-        line-height: 72px;
-        font-weight: 700;
-    }
-    .abouttopdiv{
-        display: flex;
-        grid:20px;
-    }
-    .abouttopdiv div{
-        width: 50%;
-    }
-    /* .abouttopdiv{ 
-    } */
-    .abouttopdiv img{
-        float: right; 
-    } 
-    .abouttopdiv div  h2{
-        font-size: 32px;
-        line-height: 40px;
-        font-weight: 700;    padding-bottom: 20px;
-        display: block;
-        color: #474747;
-    }
-    .abouttopdiv div p{ 
-        font-size: 14px;
-        line-height: 21px;
-        font-weight: 400;
-        color: #474747;
-        margin-bottom: 15px;
-    }
-    .aboutseconddiv{
-        background: #482987;
-        border-radius: 20px;
-        padding: 60px 140px;
-        margin-top: 120px;
-        color: white !important;
-        
-    }
-    .aboutsecondbody{
-        display: flex;
-        margin-bottom: 40px;
-        flex-direction: row;
-    }
-    .aboutsecondbody .aboutsecondbodyl{
-        flex: 3;
-        margin-right: 20px;
-    }
-    .aboutsecondbody .aboutsecondbodyr{
-        flex: 9;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-    }
-    .aboutthirddiv{
-        padding: 100px 0;
-        text-align: center;
-    }    }
-    @media screen and (max-width:750) and (min-width:200px) {
-
-        *{
-            padding: 0;
-            margin: 0;
-            box-sizing: border-box;
-        }
-        .aboutouter{
         display: flex;
         justify-content: center;
-        padding: 70px 70px;
+        padding:50px 70px;
         }
         .abourinner{
-        width: 1200px;
+        width: 100vw;
         padding: 0 10px;
         }
         .aboutbody h1{
@@ -173,13 +92,14 @@ padding: 0 10px;
             text-align: center;
             display: block;
             margin-bottom: 20px;
-            font-size: 48px;
+            font-size: 38px;
             line-height: 72px;
             font-weight: 700;
         }
         .abouttopdiv{
             display: flex;
-            grid:30px;
+            flex-direction: row;
+            grid:10px;
         }
         .abouttopdiv div{
             width: 50%;
@@ -189,14 +109,15 @@ padding: 0 10px;
         .abouttopdiv img{
             float: right; 
         } 
-        .abouttopdiv div  h2{
-            font-size: 32px;
+        .abouttopdivl  h2{
+            font-size: 26px;
             line-height: 40px;
-            font-weight: 700;    padding-bottom: 20px;
+            font-weight: 700;    
+            padding-bottom: 20px;
             display: block;
             color: #474747;
         }
-        .abouttopdiv div p{ 
+        .abouttopdivl p{ 
             font-size: 14px;
             line-height: 21px;
             font-weight: 400;
@@ -217,11 +138,11 @@ padding: 0 10px;
             flex-direction: row;
         }
         .aboutsecondbody .aboutsecondbodyl{
-            flex: 3;
-            margin-right: 20px;
+            flex: 12;
+            margin-right: 0;
         }
         .aboutsecondbody .aboutsecondbodyr{
-            flex: 9;
+            flex: 12;
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
@@ -231,4 +152,172 @@ padding: 0 10px;
             padding: 100px 0;
             text-align: center;
         }
-} 
+}
+
+@media screen and (max-width:750px) {
+    
+    .aboutouter{
+        display: flex;
+        justify-content: center;
+        padding:50px 0px;
+        }
+        .abourinner{
+        width: 100vw;
+        padding: 0 20px;
+        }
+        .aboutbody h1{
+            color: #482987;
+            text-align: center;
+            display: block;
+            margin-bottom: 20px;
+            font-size: 30px;
+             line-height: 54px;
+            font-weight: 700;
+        }
+        .abouttopdiv{
+            display: flex;
+            flex-direction: column;
+            grid:10px;
+        }
+        .abouttopdiv div{
+            width: 100%;
+        }
+        /* .abouttopdiv{ 
+        } */
+        .abouttopdiv img{ 
+            clear: both; 
+            float: left; 
+            width: 100%;
+        } 
+        .abouttopdivl  h2{
+            font-size: 32px;
+            font-size: 24px;
+            line-height: 30px;  
+             padding-bottom: 20px;
+            display: inline-block;
+            color: #474747;
+        }
+        .abouttopdivl p{ 
+            font-size: 14px;
+            line-height: 21px;
+            font-weight: 400;
+            color: #474747;
+            margin-bottom: 15px;
+        }
+        .aboutseconddiv{
+            background: #482987;
+            border-radius: 20px;
+            padding: 30px 30px;
+            margin-top: 80px;
+            color: white !important;
+            
+        }
+        .aboutsecondbody{
+            display: flex;
+            margin-bottom: 40px;
+            flex-direction: column;
+        }
+        .aboutsecondbody .aboutsecondbodyl{
+            flex: 0;
+            display: flex;
+            margin-right: 0 auto;
+            justify-content: center;
+            align-items: center;
+        }
+        .aboutsecondbody .aboutsecondbodyr{
+            flex: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content:center;
+            align-items:center;
+            text-align: center;
+        }
+        .aboutthirddiv{
+            padding: 100px 0;
+            text-align: center;
+        }
+
+}
+/* 
+ 
+
+    @media screen and (max-width:750) and (min-width:200px) {
+
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .aboutouter{
+        display: flex;
+        justify-content: center;
+        padding: 70px 0px;
+        }
+        .abourinner{
+        width: 100vw;
+        padding: 0 20px;
+        }
+        .aboutbody h1{
+            color: #482987;
+            text-align: center;
+            display: block;
+            margin-bottom: 20px;
+            font-size: 30px;
+    line-height: 54px;
+            font-weight: 700;
+        }
+        .abouttopdiv{
+            display: flex;
+            flex-direction: column !important;
+            grid:30px;
+        }
+        .abouttopdiv div{
+            width: 100%;
+        }
+        
+        .abouttopdirimg{
+            float: none; 
+        } 
+        .abouttopdivl  h2{
+            font-size: 32px;
+            font-size: 24px;
+            line-height: 30px;   padding-bottom: 20px;
+            display: block;
+            color: #474747;
+        }
+        .abouttopdivl p{ 
+            font-size: 14px;
+            line-height: 21px;
+            font-weight: 400;
+            color: #474747;
+            margin-bottom: 15px;
+        }
+        .aboutseconddiv{
+            background: #482987;
+            border-radius: 20px;
+            padding: 60px 140px;
+            margin-top: 120px;
+            color: white !important;
+            
+        }
+        .aboutsecondbody{
+            display: flex;
+            margin-bottom: 40px;
+            flex-direction: column !important;
+        }
+        .aboutsecondbody .aboutsecondbodyl{
+            flex:12;
+            margin-right: 20px;
+        }
+        .aboutsecondbody .aboutsecondbodyr{
+            flex: 12;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .aboutthirddiv{
+            padding: 100px 0;
+            text-align: center;
+        }
+}  */

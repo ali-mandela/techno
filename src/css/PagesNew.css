@@ -23,14 +23,14 @@
     justify-content: center;
     text-align: center;
     width: 1200px; 
-    height: 160px; 
+    height: 180px; 
     padding: 0 10px;
 }
 .pagesHeaderBody{
     display: flex;
     justify-content: flex-end;
-    align-items: center;
-    flex-direction: column;
+    align-items: center; 
+        flex-direction: column;
     width: 100%;
 }
 .pagesHeaderBody hr{  
@@ -50,18 +50,52 @@
     font-weight: 700; 
 }
 
-@media screen and (max-width:1200px) and (min-width:750px) {
-  
+ @media screen and (max-width:1200px) and (min-width:750px) {
     
-.pagesouter{
+   
+     
+     
+    .pagesinner{ 
+        width: 100vw;  
+    }
+    .pagesHeaderBody{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        flex-direction: column; 
+        width: 100%;
+    }
+    .pagesHeaderBody hr{  
+        border-top: 4px solid white;
+        width: 200px;
+    
+    }
+    .pagesHeaderBody h1{
+        font-size: 48px;
+        line-height: 72px;
+        font-weight: 700;
+        margin: 30px 0;
+    }
+    .pagesHeaderBody h2{
+        font-size: 24px;
+        line-height: 36px;
+        font-weight: 700; 
+        margin-top: 20px;
+    }
+ }
+
+ @media screen and (max-width:750px) and (min-width:100px) {
+
+
+    .pagesouter{
     border-radius: 0 0 50% 50% / 50px;
     background-size: cover;
     width: 100%;
     display: flex;
-    padding: 20px 0;
+    padding: 40px 0px;
     justify-content: center;
 }
-
+ 
  
 .pagesinner{
     color: white; 
@@ -69,84 +103,32 @@
     justify-content: center;
     text-align: center;
     width: 100vw; 
-    height: 180px; 
+    height: 160px; 
     padding: 0 20px;
 }
 .pagesHeaderBody{
     display: flex;
     justify-content: flex-end;
-    align-items: center;
-    flex-direction: column;
+    align-items: center; 
+        flex-direction: column;
     width: 100%;
 }
 .pagesHeaderBody hr{  
     border-top: 4px solid white;
-    margin: 20px 0;
     width: 200px;
 
 }
 .pagesHeaderBody h1{
-    font-size: 48px;
-    line-height: 72px;
+    font-size: 30px;
+    line-height: 54px;
     font-weight: 700;
-    margin-top: 20px 0;
+    margin: 30px 0;
 }
 .pagesHeaderBody h2{
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 20px;
+    line-height: 30px;
     font-weight: 700; 
-    margin-top: 10px;
 }
+ }
 
-
-}
-
-
-
-@media screen and(max-width:750px) and (min-width:250px) {
-    .pagesouter{
-        border-radius: 0 0 50% 50% / 50px;
-        background-size: cover;
-        width: 100%;
-        display: flex;
-        padding: 20px 0px !important;
-        justify-content: center;
-        
-    }
-     
-     
-    .pagesinner{
-        color: white; 
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        width:100vw; 
-        height: 180px; 
-        padding: 0 20px;
-    }
-    .pagesHeaderBody{
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        flex-direction: column;
-        width: 100%;
-    }
-    .pagesHeaderBody hr{  
-        border-top: 4px solid white; 
-        width: 200px;
-    
-    }
-    .pagesHeaderBody h1{
-        font-size: 24px;
-        line-height: 32px;
-        font-weight: 600;
-        width: 100%;
-        margin: 20px 0;
-    }
-    .pagesHeaderBody h2{
-        font-size: 18px;
-        line-height: 20;
-        font-weight: 700; 
-        width: 100%; 
-    }
-}
+ 

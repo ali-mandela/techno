@@ -35,7 +35,7 @@ const About = () => {
                     <p>Let’s overcome your IT challenges, together</p>
             </div>
             <div className='abouttopdivr'>
-            <img src={about2}
+            <img src={about2} className="abouttopdirimg"
                 alt="about  second"
             />
             </div>
@@ -43,7 +43,8 @@ const About = () => {
 
         <div className='aboutseconddiv'>
         <div className='aboutsecondbody'>
-            <div className='aboutsecondbodyl'> <i class=" fa-9x fa-solid fa-lightbulb"></i>
+            <div className='aboutsecondbodyl'>
+             <i class=" fa-9x fa-solid fa-lightbulb"></i>
             </div>
             <div className='aboutsecondbodyr'>
                 <h1 style={{color:"white"}}>Vision</h1>
