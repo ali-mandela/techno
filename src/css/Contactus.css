@@ -14,6 +14,7 @@
     padding: 70px 0;
     text-align: center;
 }
+
 .contactussection h1 {
     font-size: 32px;
     line-height: 40px;
@@ -108,24 +109,31 @@
 
 /* .contactusmenu{
 } */
-.contactusmenu h6 {
+.contactusformh{
     font-size: 32px;
     line-height: 40px;
     font-weight: 700;
     margin: 0 30px 20px 30px;
+
+    padding: 0 100px;
+}
+.contactusmenu h6{
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 700;
+    margin: 30px 30px 20px 30px;
      padding: 0 100px;
 
 }
 .contactusmenu .cs3Topdiv{
-    display: flex;gap: 30px 
+    display: flex;
+    gap: 30px 
 }
-.contactusmenu .cs3Topdivouter{
-    width: 30%; 
+.contactusmenu .cs3Topdivouter{ 
     padding: 10px 20px;
     margin-top: 30px;
     background: #ccc;
-    border-radius: 10px;
-    overflow: hidden;
+    border-radius: 10px; 
     
 }
 .cs3TopdivmainTop{ 
@@ -466,16 +474,17 @@ height: auto;
 }
 /* contact us menu */
 
-.contactusmenu h1 {
+.contactusmenu h6 {
     font-size: 26px;
     line-height: 40px;
     font-weight: 700;
-    margin: 0 30px 20px 30px;
+    margin: 0;
      padding: 0 40px;
 
 }
 .contactusmenu .cs3Topdiv{
-    display: flex;gap: 30px; 
+    display: flex;
+    gap: 30px; 
     flex-direction: column;
 }
 .contactusmenu .cs3Topdivouter{
@@ -523,6 +532,7 @@ height: auto;
 .cs3right, .csleft3{ 
     width:100%;
 }
+ 
 .contactusform h1{
     text-align: left;
     margin-bottom: 37px;
@@ -539,6 +549,7 @@ height: auto;
     margin-right: 20px;
 
 }
+
 .contactusform i{
     color:#F2820E;
     margin-right: 20px;
@@ -563,6 +574,7 @@ height: auto;
     margin-top: 10px;
     border-radius: 10px;
     padding: 0 20px; 
+    width: 100%;
     color: black;
     background-color: #e5e7eb;
 }

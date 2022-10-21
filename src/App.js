@@ -10,7 +10,7 @@ import Zoho from './Pages/zoho'
 import Contactus from './Pages/Contactus'
 import Dataanalytics from './Pages/Dataanalytics';
 import CI from './Pages/CI'
-import Amparagraph from './Component/amParagraph';  
+import Amparagraph from './Component/amParagraph';   
 
 function App() {
   return (<>  
